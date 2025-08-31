@@ -20,8 +20,8 @@ const MeetArtist = () => {
                discord: "midnightkenshi",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825302/2_joep1t.png' },
 
-        { callit: "HEIDI FELIX",
-              twitter : 'https://x.com/heidifelix601',
+        { callit: "Tsuki Spectra",
+              twitter : 'https://x.com/TsukiSpectra',
               twitch : 'https://www.twitch.tv/celestialpaisley',
                discord: "tsukispectra",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825304/3_quq6sh.png' },
@@ -75,7 +75,7 @@ const MeetArtist = () => {
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825332/11_jiek9v.png' },
 
         { callit: "Aurora Lucas",
-              twitter : 'https://x.com/Aurora_Lucas02',
+              twitter : 'https://x.com/aurora_lucas03',
               twitch : 'https://www.twitch.tv/celestialpaisley',
                discord: "aurora_lucas",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825341/12_fmdvk3.png' },

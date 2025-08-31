@@ -20,7 +20,7 @@ const PFP = () => {
         { callit: "Starry-Eyed Blossom", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806821/1_wxqico.png' },
         { callit: "Neon Purrfect ", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806824/2_qjsmca.jpg' },
 
-        { callit: "Moonlit Hex", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806765/3_lq6ivd.jpg' },
+        // { callit: "Moonlit Hex", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806765/3_lq6ivd.jpg' },
         { callit: "Neon Diva pfp", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806766/4_orbchh.jpg' },
         { callit: "Ghost Spark", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806767/5_z5qjyd.jpg' },
         { callit: "Void Enchanter ", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806771/6_zjokrs.jpg' },
