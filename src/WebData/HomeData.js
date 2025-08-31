@@ -53,7 +53,7 @@ export const weCreate =[
     
     {name : "Custom PFP Design" , description : "Unique profile pictures" , model : <SiMaterialdesignicons />},
 
-    {name : "Custom Emotes & Badges" , description : "Personalized ematesand badges" , model : <SiOpenbadges />},
+    {name : "Custom Emotes & Badges" , description : "Personalised Emotes and Badges" , model : <SiOpenbadges />},
 
 
     {name : "Overlays Pack" , description : "Visual overlays for streams" , model : <TfiLayoutMediaOverlayAlt />},

@@ -1,7 +1,5 @@
 import React, { useContext, useState } from 'react'
-import whyYmmearc from '../../../Assets/Images/HomeImages/WhySecImg.png'
-import { recentModels, weCreate, whyYummeArc } from '../../../WebData/HomeData'
-import { FollowerPointerCard } from '../../../components/ui/following-pointer'
+import {  weCreate} from '../../../WebData/HomeData'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
@@ -35,7 +33,7 @@ const WhatWeCreate = () => {
                 {weCreate.map((model, idx) => (
                     <div data-aos-duration="200" data-aos="flip-right" key={idx} onMouseEnter={() => handleActive(idx)} onMouseLeave={() => handleActive(null)}
                         style={{ transform: isActive == idx ? 'scale(1.1)' : 'scale(1)', boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(0, 0, 0, 0.1)' : '0px 1px 3px 2px rgba(0, 0, 0, 0.1)' }}
-                        className='col-span-1 backdrop-blur-md rounded-2xl overflow-hidden shadow-md transition-all cursor-pointer w-full text-iconColor flex flex-col p-6 bg-primaryDark   justify-center items-center gap-8'>
+                        className='col-span-1 backdrop-blur-md rounded-2xl overflow-hidden shadow-md transition-all cursor-pointer w-full text-iconColor flex flex-col p-6 bg-primaryDark   justify-center items-center gap-8 text-center'>
                         
 
                             <span className='text-5xl'> {model.model}</span>

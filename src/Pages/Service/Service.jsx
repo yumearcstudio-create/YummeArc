@@ -48,7 +48,7 @@ const Service = () => {
         <Custom3D />
         <Chibbi />
         <Sec5_vtuber />
-        <Sec6_lorebased />
+        {/* <Sec6_lorebased /> */}
         <Sec7_art2d />
         <Sec8_pfp />
         <Sec9_emote />
