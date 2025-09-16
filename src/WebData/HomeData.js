@@ -26,9 +26,6 @@ import { SiMaterialdesignicons, SiOpenbadges } from "react-icons/si";
 import { TfiLayoutMediaOverlayAlt } from "react-icons/tfi";
 
 
-<!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTM1QJWB0Y"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-VTM1QJWB0Y'); </script>
-
 
 
 
