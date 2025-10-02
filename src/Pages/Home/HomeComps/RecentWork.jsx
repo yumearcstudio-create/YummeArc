@@ -54,7 +54,7 @@ const RecentWork = () => {
                 <Link to={"/portfolio"} className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>
                     View Full Portfolio
                 </Link>
-                <h1 className='font-bold sm:text-4xl text-2xl text-headingDark'>
+                <h1 className='font-bold sm:text-4xl text-2xl text-headingDark mt-10'>
                     Every design we create carries a little bit of your world <br/>and a whole lot of our care
 
                 </h1>

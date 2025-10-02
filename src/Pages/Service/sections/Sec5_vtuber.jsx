@@ -16,9 +16,7 @@ const Sec5_vtuber = () => {
             <ShadePurple className={'-left-24 bottom-20 bg-gradient-to-r w-72 h-72 opacity-20'} />
 
             {/* shading circle yaha sai khatam bus ok  */}
-            {/* Home text  */}
-            <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-primaryDark
-                to-transparent' />
+
 
 
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem]'>
@@ -60,7 +58,7 @@ const Sec5_vtuber = () => {
             </div>
 
 
-            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   ' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813005/sec6_animation_wdzp6y.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   ' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1759424881/CHRACHTER_AB-03_fewyxz.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
         </div>
 

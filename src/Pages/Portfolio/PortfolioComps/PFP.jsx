@@ -17,6 +17,7 @@ const PFP = () => {
 
 
     const speaker = [
+        { callit: "Royal Sass style", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1759427480/pfp_new_cibegv.jpg' },
         { callit: "Starry-Eyed Blossom", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806821/1_wxqico.png' },
         { callit: "Neon Purrfect ", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806824/2_qjsmca.jpg' },
 
@@ -30,6 +31,7 @@ const PFP = () => {
 
         { callit: "Violet Victory style", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806811/10_zr4iir.jpg' },
         { callit: "Horned Mischief style", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754806817/11_ykoy8r.jpg' },
+        
     ]
 
     const handleShowImage = (index) => {

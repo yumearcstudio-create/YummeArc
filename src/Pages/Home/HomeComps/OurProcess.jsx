@@ -44,8 +44,8 @@ const OurProcess = () => {
                     Have something custom in mind? Let’s make it real together
 
                 </h1>
-                <span onClick={() => setIsFormOpen(true)} className='text-xl bg-buttonPrimary text-headingDark font-semibold px-8 py-2 rounded-md cursor-pointer transition-all duration-300 hover:scale-[105%] hover:drop-shadow-sm'>
-                    Start a Custom Project 💌
+                <span onClick={() => setIsFormOpen(true)} className='text-xl bg-buttonPrimary text-headingDark font-semibold px-8 py-2 rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-2  mt-10'>
+                    Start a Custom Project 
                 </span>
             </div>
 

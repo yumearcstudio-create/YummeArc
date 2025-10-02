@@ -24,7 +24,7 @@ const CTA1 = () => {
                 <Link to={"/service"} className=' px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md  '>Explore Our Services</Link>
             </div>
 
-            <img src="https://res.cloudinary.com/dqflexfdy/image/upload/v1754812999/cta_lllxtc.png" alt="" className='absolute right-0 bottom-0 2xl:w-96 w-40 z-30' />
+            <img src="https://res.cloudinary.com/dqflexfdy/image/upload/v1759424733/CHRACHTER_AB-05_apqilr.png" alt="" className='absolute right-0 bottom-0 xl:w-[400px] w-40 z-30' />
         </section>
     )
 }

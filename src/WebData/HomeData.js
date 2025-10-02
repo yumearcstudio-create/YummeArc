@@ -50,7 +50,7 @@ export const weCreate =[
 
     {name : "Custom Panels" , description : "Panels for Twitch or Kick" , model : <DiNetbeans />},
 
-    {name : "2D Art Scenes for Stream Starting, Ending, and BRB's" , description : "Starting, ending, and BR3" , model : <MdScreenshotMonitor />},
+    {name : "2D Art Scenes for Stream Starting, Ending, and BRB's" , description : "Starting, ending, and BRB" , model : <MdScreenshotMonitor />},
     
     {name : "Custom PFP Design" , description : "Unique profile pictures" , model : <SiMaterialdesignicons />},
 

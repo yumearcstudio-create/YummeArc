@@ -50,8 +50,8 @@ const WhatWeCreate = () => {
                     Have something custom in mind? Let’s make it real together
 
                 </h1>
-                <button onClick={() => setIsFormOpen(true)} className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>
-                    Start a Custom Project 💌
+                <button onClick={() => setIsFormOpen(true)} className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2 mt-10'>
+                    Start a Custom Project 
                 </button>
             </div>
 
