@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /api/
-Disallow: /private/
+/private/
 
 Sitemap: https://www.yumearc.com/sitemap.xml
