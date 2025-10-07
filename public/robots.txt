@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-/private/
-
-Sitemap: https://www.yumearc.com/sitemap.xml
