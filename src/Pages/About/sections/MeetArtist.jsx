@@ -13,12 +13,6 @@ const MeetArtist = () => {
                discord: "celestialpaisley",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825301/1_vftjej.png' },
 
-        { callit: "Nekurai",
-              twitter : 'https://x.com/ItsNekurai',
-              twitch : 'https://www.twitch.tv/celestialpaisley',
-               discord: "nekurai.exe",
-        icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825341/12_fmdvk3.png' },
-
 
         { callit: "MIDNIGHT KENSHI",
               twitter : 'https://x.com/Midnight_Kenshi',
@@ -85,6 +79,14 @@ const MeetArtist = () => {
               twitch : 'https://www.twitch.tv/celestialpaisley',
                discord: "aurora_lucas",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825341/12_fmdvk3.png' },
+
+        
+        { callit: "Nekurai",
+              twitter : 'https://x.com/ItsNekurai',
+              twitch : 'https://www.twitch.tv/celestialpaisley',
+               discord: "nekurai.exe",
+        icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1761257266/13_artist-removebg-preview_ix9xnt.png' },
+
 
         
 
