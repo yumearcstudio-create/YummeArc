@@ -10,8 +10,14 @@ const MeetArtist = () => {
         { callit: "Celestria Paisley",
               twitter : 'https://x.com/celestiapaisley?s=21',
               twitch : 'https://www.twitch.tv/celestialpaisley',
-               discord: "Luoro",
+               discord: "celestialpaisley",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825301/1_vftjej.png' },
+
+        { callit: "Nekurai",
+              twitter : 'https://x.com/ItsNekurai',
+              twitch : 'https://www.twitch.tv/celestialpaisley',
+               discord: "nekurai.exe",
+        icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825341/12_fmdvk3.png' },
 
 
         { callit: "MIDNIGHT KENSHI",
@@ -26,10 +32,10 @@ const MeetArtist = () => {
                discord: "tsukispectra",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825304/3_quq6sh.png' },
         
-        { callit: "AMELIA ZOE",
-              twitter : 'https://x.com/AmeliaZ04528482',
+        { callit: "Raven Arc ",
+              twitter : 'https://x.com/TheRavenArc',
               twitch : 'https://www.twitch.tv/celestialpaisley',
-               discord: "amelia_zoe",
+               discord: "itsravenarc",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825310/4_khf95f.png' },
 
         { callit: "Emma smith",
