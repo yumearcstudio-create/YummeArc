@@ -10,7 +10,7 @@ const TrustPilotBadge = ( ) => {
       <img
         src={image} // ✅ apna static image public folder me daal do
         alt="Trustpilot Reviews"
-        className="h-fit w-56 cursor-pointer"
+        className=" w-56 cursor-pointer"
       />
     </a>
   );
