@@ -26,6 +26,7 @@ const Speak = () => {
 
 
     const speaker = [
+        { callit: "Solarius Sage 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763279612/2d_model-min_zro2mb.png' },
         { callit: "Infernia 2D Chibi Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png' },
         { callit: "Aurelius Guard 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746124/F2_o3gcmr.png' },
 

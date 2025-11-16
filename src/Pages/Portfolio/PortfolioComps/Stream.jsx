@@ -15,6 +15,9 @@ const Stream = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const stream = [
+        { callit: "Gearlight 2D Chibi Panel Set", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280984/13_fffmyv.jpg' },
+        { callit: "Inferno Fox Chibi Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280985/14_ztxfd0.jpg' },
+        { callit: "Starry Catboy Twitch Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280985/15_njyxj7.jpg' },
         { callit: "ChibiFox Twitch Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/1_be1m7v.jpg' },
         { callit: "Neon Green Chibi WolfBoy Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747076/2_l5v74w.jpg' },
         { callit: "Retro Pixel Gamer Chibi Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747082/3_wqvtub.jpg' },

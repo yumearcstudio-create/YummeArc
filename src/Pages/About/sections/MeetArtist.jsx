@@ -20,10 +20,10 @@ const MeetArtist = () => {
                discord: "midnightkenshi",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825302/2_joep1t.png' },
 
-        { callit: "Tsuki Spectra",
-              twitter : 'https://x.com/TsukiSpectra',
+        { callit: "Ashikaix.exe",
+              twitter : 'https://x.com/Ashikaix',
               twitch : 'https://www.twitch.tv/celestialpaisley',
-               discord: "tsukispectra",
+               discord: "ashikaix.exe",
         icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754825304/3_quq6sh.png' },
         
         { callit: "Raven Arc ",
