@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdCall, MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaInstagram, FaLocationDot, FaSnapchat, FaTwitch, FaTwitter, FaX, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaHandshake, FaInstagram, FaLocationDot, FaSnapchat, FaTwitch, FaTwitter, FaX, FaXTwitter } from "react-icons/fa6";
 import TrustPilotBadge from '../../components/TrustPilotBadge';
 
 
@@ -60,6 +60,14 @@ const Footer = () => {
                         <div className='flex '>
                             <FaLocationDot size={"2em"} />
                             <p className='px-4 text-lg font-semibold underline'>Belle Mead, New Jersey, USA</p>
+                        </div>
+
+
+                        <div className='flex '>
+                            <FaHandshake size={"2em"} />
+
+                            <p className='px-4 text-lg font-semibold underline flex-1'>In Partnership with Vision Tech Solutions and Services LLC
+56 Chestnut Street Edison 08817 NJ</p>
                         </div>
 
                         <TrustPilotBadge
