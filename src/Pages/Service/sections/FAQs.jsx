@@ -86,7 +86,7 @@ const FAQs = () => {
 
             </div>
 
-            <div data-aos="fade-top" className=' md:h-[1000px] h-[600px]  xl:w-[600px] sm:w-[400px] w-[300px]' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754818364/faqs_glkpjc.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className=' md:h-[1000px] h-[600px]  xl:w-[600px] sm:w-[400px] w-[300px]' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1759427863/CHRACHTER_AB-01_dnrhtw.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
 
         </div>

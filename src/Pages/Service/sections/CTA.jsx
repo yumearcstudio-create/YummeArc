@@ -45,7 +45,7 @@ const CTA = () => {
             </div>
 
             <div className='sm:px-20'>
-                <div data-aos="fade-top" className='h-[500px] md:w-[350px] w-[300px]' style={{ backgroundImage: `url('https://res.cloudinary.com/dqflexfdy/image/upload/v1754812999/cta_lllxtc.png')`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+                <div data-aos="fade-top" className='h-[500px] md:w-[350px] w-[300px]' style={{ backgroundImage: `url('https://res.cloudinary.com/dqflexfdy/image/upload/v1766835314/lera_support-01_1_h6mlpc.png')`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
             </div>
 
 

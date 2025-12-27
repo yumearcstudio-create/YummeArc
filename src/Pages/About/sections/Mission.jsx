@@ -14,7 +14,7 @@ const Mission = () => {
 
             </h1>
             <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
-                At YummeArc, our mission is simple help every VTuber feel truly seen, truly unique.
+                At YumeArc, our mission is simple help every VTuber feel truly seen, truly unique.
                 We believe your design is more than just “cute” it’s a reflection of your soul, your lore, your journey.
 
             </p>

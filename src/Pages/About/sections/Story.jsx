@@ -11,13 +11,13 @@ const Story = () => {
 
       <AOSInitializer />
       <h1 data-aos="flip-up" className='   font-kaushans lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
-        How YummeArc Began
+        How YumeArc Began
 
 
       </h1>
       <div className='w-full flex md:flex-row flex-col justify-evenly items-center gap-x-10'>
         <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
-          YummeArc was born from a simple idea that a VTuber model isn’t just “art,” it’s a living part of your story.
+          YumeArc was born from a simple idea that a VTuber model isn’t just “art,” it’s a living part of your story.
           We started as anime fans creating designs for friends, but quickly realized there was a need for models that felt personal, not generic.
           Since then, we’ve worked with streamers worldwide, turning backstories into fully realized characters that connect with their audience on an emotional level
         </p>

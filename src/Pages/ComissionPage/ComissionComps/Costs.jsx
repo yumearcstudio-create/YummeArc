@@ -41,7 +41,7 @@ const Costs = () => {
             </div>
 
                 <div className='flex-1 '>
-                    <img src={image} className='w-[500px] '/>
+                    <img src={'https://res.cloudinary.com/dqflexfdy/image/upload/v1766835482/lera_rules-01_1_y0xmee.png'} className='w-[500px] '/>
                 </div>
         </div>
     )

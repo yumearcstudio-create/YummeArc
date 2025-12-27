@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 data-aos="flip-up" className='   lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
                 Every Stream Deserves Story-Driven Art
             </h1>
-            <p  data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>We're not a Explore handcrafted services made for VTubers who want emotion, detail, and anime-level energy.
+            <p  data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>We create handcrafted art services for VTubers who want emotion, detail, and anime-level energy.
             </p>
 
             

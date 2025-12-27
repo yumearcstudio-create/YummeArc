@@ -1,6 +1,5 @@
 import React from 'react'
 import Img5 from '../../../Assets/Images/about/5.png'
-import Img7 from '../../../Assets/Images/about/2.png'
 
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 const CreativeProcess = () => {
@@ -14,7 +13,7 @@ const CreativeProcess = () => {
 
             <img src={Img5} alt="" className='md:w-[500px]  ' />
 
-            <img src={Img7} alt="" className='md:w-[400px]  ' />
+            <img src={'https://res.cloudinary.com/dqflexfdy/image/upload/v1766835196/lera_schedule-01_1_vttipc.png'} alt="" className='md:w-[400px]  ' />
 
         </div>
     )
