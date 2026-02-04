@@ -117,8 +117,8 @@ const MainNav = () => {
             </div>
 
             <div className='flex flex-col group items-center cursor-pointer'>
-              <h1 onClick={() => handleCurrPage("Comission" , "/comission")} className='text-lg font-bold z-10 '>Comission</h1>
-              <span className={`w-full transition-all ${currPage == "Comission" ? 'translate-y-0 bg-headingDark' : 'group-hover:translate-y-0 -translate-y-4  group-hover:bg-headingDark bg-transparent'} z-0 py-[2px] rounded-full`} />
+              <h1 onClick={() => handleCurrPage("Commission" , "/commission")} className='text-lg font-bold z-10 '>Commission</h1>
+              <span className={`w-full transition-all ${currPage == "Commission" ? 'translate-y-0 bg-headingDark' : 'group-hover:translate-y-0 -translate-y-4  group-hover:bg-headingDark bg-transparent'} z-0 py-[2px] rounded-full`} />
             </div>
 
             

@@ -14,7 +14,7 @@ const Hero = () => {
             </p>
 
             
-            <img loading='lazy' src={'https://res.cloudinary.com/dqflexfdy/image/upload/v1754813102/heroImg_bs0e8x.png'} alt="" className='md:w-[500px] w-[400px] mt-10 '/>
+            <img loading='lazy' src={'https://res.cloudinary.com/dqflexfdy/image/upload/v1770210253/services-hero-webp_yiunzi.webp'} alt="" className='md:w-[500px] w-[400px] mt-10 '/>
 
 
         </div>

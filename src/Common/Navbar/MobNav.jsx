@@ -41,7 +41,7 @@ const MobNav = () => {
          <h1 onClick={() => navigateTo("/")} className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl p-6 bg-white/10  '>Home</h1>
          <h1 onClick={() => navigateTo("/portfolio")}  className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl p-6 bg-white/10  '>Portfolio</h1>
          <h1 onClick={() => navigateTo("/about")} className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl p-6 bg-white/10  '>About </h1>
-         <h1 onClick={() => navigateTo("/comission")}  className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl   p-6 bg-white/10 '>Comission </h1>
+         <h1 onClick={() => navigateTo("/commission")}  className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl   p-6 bg-white/10 '>Commission </h1>
          <h1 onClick={() => navigateTo("/service")} className='text-2xl font-bold col-span-1 text-center bg-purpleTo rounded-xl p-6 bg-white/10 '>Service </h1>
          </div>
          

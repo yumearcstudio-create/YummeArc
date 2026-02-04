@@ -1,8 +1,8 @@
-import React from 'react'
-import { MdCall, MdEmail } from 'react-icons/md'
+import {  MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaHandshake, FaInstagram, FaLocationDot, FaSnapchat, FaTwitch, FaTwitter, FaX, FaXTwitter } from "react-icons/fa6";
+import {  FaHandshake,  FaLocationDot,  FaTwitch,  FaXTwitter } from "react-icons/fa6";
 import TrustPilotBadge from '../../components/TrustPilotBadge';
+import { SiLinktree } from 'react-icons/si';
 
 
 const Footer = () => {
@@ -26,6 +26,8 @@ const Footer = () => {
 
                         <a href="https://www.twitch.tv/" target='_blank' className='hover:scale-125 transition-all' ><FaTwitch size={"2em"} /></a>
 
+                        <a href="https://linktr.ee/yumearc.studio" target='_blank' className='hover:scale-125 transition-all' ><SiLinktree size={"2em"} /></a>
+
 
                     </div>
                 </div>
@@ -43,7 +45,7 @@ const Footer = () => {
                         <Link to={"/about"} className='text-lg font-semibold underline z-10 '>About</Link>
                         <Link to={"/service"} className='text-lg font-semibold underline z-10 '>Service</Link>
 
-                        <Link to={"/comission"} className='text-lg font-semibold underline z-10 '>Comission</Link>
+                        <Link to={"/commission"} className='text-lg font-semibold underline z-10 '>Commission</Link>
                     </div>
 
                 </div>
@@ -67,11 +69,11 @@ const Footer = () => {
                             <FaHandshake size={"2em"} />
 
                             <p className='px-4 text-lg font-semibold underline flex-1'>In Partnership with Vision Tech Solutions and Services LLC
-56 Chestnut Street Edison 08817 NJ</p>
+                                56 Chestnut Street Edison 08817 NJ</p>
                         </div>
 
                         <TrustPilotBadge
-                            
+
                         />
 
 

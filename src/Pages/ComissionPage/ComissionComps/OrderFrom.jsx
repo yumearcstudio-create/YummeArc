@@ -37,7 +37,7 @@ const OrderFrom = () => {
                                 className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'> Message on Twitter </a>
 
                             <a
-                                href="https://discord.com"
+                                href="https://discord.gg/f8Y8yrVNdP"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className='px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md '>Message on Discord 

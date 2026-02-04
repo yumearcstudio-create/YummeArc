@@ -15,7 +15,7 @@ function App() {
         < >
         <Route path="/" element={<Home/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
-        <Route path="/comission" element={<Comission/>}/>
+        <Route path="/commission" element={<Comission/>}/>
         <Route path="/service" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/com" element={<CommissionForm/>}/>
