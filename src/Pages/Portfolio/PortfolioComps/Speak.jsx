@@ -26,7 +26,7 @@ const Speak = () => {
 
 
     const speaker = [
-         { callit: "Aureon Halo 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770209722/model_1_webp_alxoim.webp' },
+         { callit: "Aureon Halo 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770743219/angel_enff3b.webp' },
         { callit: "Solarius Sage 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770210109/model_2_webp_aoxvoc.webp' },
         { callit: "Infernia 2D Chibi Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png' },
         { callit: "Aurelius Guard 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746124/F2_o3gcmr.png' },

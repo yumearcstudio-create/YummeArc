@@ -241,7 +241,7 @@ const MeetArtist = () => {
           
         </h1>
 
-        <a href="https://discord.gg/fjf85hkd" target="_blank" className="text-2xl underline underline-offset-2 ">YumeArc’s official Discord <br/> 
+        <a href="https://discord.gg/f8Y8yrVNdP" target="_blank" className="text-2xl underline underline-offset-2 ">YumeArc’s official Discord <br/> 
           </a>
         <br/>
         
