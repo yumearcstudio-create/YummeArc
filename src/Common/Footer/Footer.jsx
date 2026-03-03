@@ -61,16 +61,16 @@ const Footer = () => {
 
                         <div className='flex '>
                             <FaLocationDot size={"2em"} />
-                            <p className='px-4 text-lg font-semibold underline'>Belle Mead, New Jersey, USA</p>
+                            <p className='px-4 text-lg font-semibold underline'>  56 Chestnut Street Edison 08817 NJ</p>
                         </div>
 
 
-                        <div className='flex '>
+                        {/* <div className='flex '>
                             <FaHandshake size={"2em"} />
 
                             <p className='px-4 text-lg font-semibold underline flex-1'>In Partnership with Vision Tech Solutions and Services LLC
-                                56 Chestnut Street Edison 08817 NJ</p>
-                        </div>
+                              </p>
+                        </div> */}
 
                         <TrustPilotBadge
 
