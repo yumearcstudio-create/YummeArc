@@ -58,7 +58,7 @@ const CommissionForm = () => {
     // EmailJS send
     emailjs
       .send(
-        "service_ahydoxf",
+        "service_3yd0c6q",
         "template_p97et6g",
 
         {
