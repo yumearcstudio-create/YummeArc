@@ -74,9 +74,7 @@ const Testimonals = () => {
       <div className='w-full flex flex-col gap-y-4 mt-10 justify-center items-center text-center'>
         <TrustPilotBadge/>
         <h1 className='font-semibold text-2xl'>
-          Your story matters too. <br />
-          Let’s create your identity together.
-
+          Trusted by creators building their next identity
         </h1>
         <button onClick={() => setIsFormOpen(true)} className='text-xl bg-buttonPrimary text-headingDark font-semibold px-8 py-2 rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-2 mt-10'>
           Start a Custom Project

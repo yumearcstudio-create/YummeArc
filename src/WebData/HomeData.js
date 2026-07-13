@@ -32,34 +32,34 @@ import { TfiLayoutMediaOverlayAlt } from "react-icons/tfi";
 
 
 export const whyYummeArc = [
-    {text : "Anime-inspired, original model design" , para : "Every model we create is rooted in expressive anime art — no templates, no shortcuts. Every design is tailored to your story." ,  icon : <CiStar/>},
+    {text : "Not just another anime design" , para : "We build around the details that make your character feel like yours: the colors, mood, references, personality, and story behind the design." ,  icon : <CiStar/>},
 
-    {text : "Built Around Lore & Identity" , para : "We don’t just design what looks cool. We craft what makes sense — visuals that reflect your character's personality and backstory." , icon : <FaBook/>},
+    {text : "Lore comes first" , para : "Whether you have a full backstory or just a rough idea, we shape the visuals so your character feels connected, not random." , icon : <FaBook/>},
 
-    {text : "Wholesome & Value-Driven" , para : "No NSFW, no demonic themes. Just clean, heartfelt visuals made with intention and emotional respect.", icon : <FaLeaf/>},
-    {text : " Highly Detailed, Stream-Ready Files" , para : " We obsess over line quality, color harmony, and character flow — everything’s optimized for Live2D, overlays, or PNGTuber use." , icon : <WiStars/>},
-
-    
+    {text : "Clean, creator-safe style" , para : "We focus on expressive, stream-friendly anime visuals without NSFW or extreme themes, so your character feels safe to grow a community around.", icon : <FaLeaf/>},
+    {text : "Made for actual stream use" , para : "Models, PNGTubers, panels, overlays, and emotes are designed to look good where your audience actually sees them: on stream, on your profile, and across your socials." , icon : <WiStars/>},
 ]
 
 export const weCreate =[
     
-    {name : "Custom 2D VTuber Models" , description : "Anime/chibi art style" , model : <CgGirl />},
-    {name : "Custom 3D VTuber Models" , description : "Rig-ready 3d Avatars" , model : <MdOutline3dRotation />},
-    {name : "Custom Chibi Panels" , description : "Cute info panels" , model : <LuPanelLeft />},
+    {name : "2D VTuber Models" , description : "Custom anime-style models built around your character." , model : <CgGirl />},
+    {name : "3D VTuber Models" , description : "Stylized 3D models for a more interactive stream presence." , model : <MdOutline3dRotation />},
+    {name : "PNGTuber Designs" , description : "Expressive PNG art for creators not ready for a full model yet." , model : <LuPanelLeft />},
 
-    {name : "Custom Panels" , description : "Panels for Twitch or Kick" , model : <DiNetbeans />},
+    {name : "Chibi Stream Panels" , description : "Cute panels for About, Rules, Credits, Donate, and more." , model : <DiNetbeans />},
 
-    {name : "2D Art Scenes for Stream Starting, Ending, and BRB's" , description : "Starting, ending, and BRB" , model : <MdScreenshotMonitor />},
+    {name : "Custom Stream Panels" , description : "Clean panels matched to your character and theme." , model : <MdScreenshotMonitor />},
     
-    {name : "Custom PFP Design" , description : "Unique profile pictures" , model : <SiMaterialdesignicons />},
+    {name : "Starting / BRB / Ending Screens" , description : "Stream scenes that set the mood before and between moments." , model : <SiMaterialdesignicons />},
 
-    {name : "Custom Emotes & Badges" , description : "Personalised Emotes and Badges" , model : <SiOpenbadges />},
+    {name : "PFP Designs" , description : "Profile art made to feel recognizable across platforms." , model : <SiOpenbadges />},
 
 
-    {name : "Overlays Pack" , description : "Visual overlays for streams" , model : <TfiLayoutMediaOverlayAlt />},
+    {name : "Emotes & Badges" , description : "Small expressions your community can actually use." , model : <MdAnimation />},
 
-    {name : "Intro/Outro Animation" , description : "Animated intro and outro" , model : <MdAnimation />
+    {name : "Stream Overlay Pack" , description : "Overlay designs that match your model and stream vibe." , model : <TfiLayoutMediaOverlayAlt />},
+
+    {name : "Intro / Outro Animation" , description : "Short animated moments for openings, debuts, and transitions." , model : <MdAnimation />
 },
 
 
@@ -67,7 +67,7 @@ export const weCreate =[
 ]
 
 export const recentModels =[
-    {name : "Aurelia Flareheart" , description : "A radiant fox-spirit born from embers and stars. Her expressive design and vivid glow were crafted to mesmerize perfectly rigged for dynamic live streaming and storytelling*" , model : model_1},
+    {name : "Halo Angel Model" , description : "A radiant fox-spirit born from embers and stars. Her expressive design and vivid glow were crafted to mesmerize perfectly rigged for dynamic live streaming and storytelling*" , model : model_1},
     
     {name : "Aren, The Lost Echo" , description : "A lone wanderer from a forgotten realm, Aren’s fully rigged 3D model brings depth and realism to virtual worlds. Ideal for creators seeking immersive expression and adventure in every motion." , model : model_2},
 

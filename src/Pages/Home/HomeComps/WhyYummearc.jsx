@@ -39,11 +39,11 @@ const WhyYummearc = () => {
 
         <div className='w-full flex flex-col gap-y-4 justify-center items-center text-center'>
           <h1 data-aos="slide-up" className='font-bold sm:text-4xl text-2xl text-headingDark'>
-            You’re not just buying a model
+            A model is more than a drawing. It&rsquo;s how people remember you.
           </h1>
-          <h2 data-aos="slide-up" className='sm:text-xl text-lg'>
-            You’re investing in your virtual identity
-          </h2>
+          <p data-aos="slide-up" className='sm:text-xl text-lg max-w-3xl'>
+            Your colors, silhouette, expressions, panels, and stream visuals all shape how your audience recognizes you. We bring those pieces together so your character feels consistent everywhere your community sees you.
+          </p>
         </div>
 
 

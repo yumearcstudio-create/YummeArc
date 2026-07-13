@@ -44,15 +44,15 @@ const Hero = () => {
                     <div data-aos="fade-in" className='lg:w-1/2 w-full lg:items-start md:items-center pt-10 space-y-12 '>
 
                         <h1 className=' font-[600] text-4xl sm:text-5xl lg:text-[3.5rem]  leading-[1.1] text-headingDark'>
-                            Custom VTuber Models Made with Emotion & Detail.
+                            Your VTuber shouldn&rsquo;t look like everyone else&rsquo;s.
 
                         </h1>
-                        <p className='text-sm sm:text-xl font-merryWeater'>We create anime-style VTuber characters and stream branding built on story, softness, and charm every design speaks you.
+                        <p className='text-sm sm:text-xl font-merryWeater'>YumeArc designs custom anime-style models, PNGTubers, and stream visuals that feel like they belong to your character, your lore, and the world you&rsquo;re building.
                         </p>
 
                         <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg  '>
-                            <Link to={"/portfolio"} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'> View Portfolio</Link>
-                            <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md '>Start Your Commission</button>
+                            <Link to={"/portfolio"} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'> See Our Work</Link>
+                            <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md '>Start a Project</button>
                         </div>
                     </div>
 

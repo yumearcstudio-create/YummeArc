@@ -21,37 +21,28 @@ const Heart = () => {
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:p-16 p-4 min-h-[24rem]'>
 
                 <h1 data-aos="fade-right" className='w-full text-left z-20  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark font-kaushans'>
-                    The Heart Behind Every Model
+                    Still figuring out your character?
                 </h1>
-                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>At YumeArc, every model begins with your story your lore, your vibe, your soul. We believe your VTuber avatar shouldn’t just look good… it should feel like a reflection of you. Not just a character. A legacy.
+                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>That&rsquo;s normal. Some creators come with pages of lore. Some come with a messy idea, a few references, or just a feeling they can&rsquo;t fully explain yet.
 
                 </p>
 
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
-                    Before we draw, we listen. <br />
-                    Before we color, we understand. <br />
-                    We take your world, your personality, and your goals
-                    and we build something that truly feels like you.
+                    Maybe you know the personality but not the outfit. Maybe you have the backstory but no clear visual direction. Or maybe your current model is close, but something still feels missing.
                 </p>
 
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
-                    Because streaming isn’t just visual.<br />
-                    It’s emotional. <br />
-                    It’s storytelling in motion.
+                    We help turn those pieces into a clearer direction: the mood, colors, outfit details, expressions, panels, and stream visuals that actually fit the character you&rsquo;re trying to build.
 
                 </p>
 
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
-                    And your model? <br />
-                    It should be more than pretty
-                    It should be you, brought to life.
+                    So even if your idea isn&rsquo;t fully shaped yet, we can help make it feel more like you.
 
                 </p>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <Link to={"/comission"} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Commission</Link>
-
-                    <Link to={"/portfolio"} className=' px-8 py-2 text-white font-semibold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md border-[1px] border-white'> View Portfolio</Link>
+                    <button onClick={() => {}} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start a Project</button>
                 </div>
 
 

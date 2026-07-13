@@ -27,7 +27,8 @@ const RecentWork = () => {
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 
-            <h1 data-aos="flip-up" className='w-full text-left z-20  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark font-kaushans'>Our Work In Action</h1>
+            <h1 data-aos="flip-up" className='w-full text-left z-20  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark font-kaushans'>Featured Work</h1>
+            <p data-aos="fade-up" className='w-full text-left z-20 text-lg'>A quick look at models, panels, and stream visuals shaped around each creator&rsquo;s character.</p>
             <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 lg:gap-8 gap-6 '>
                 {recentModels.map((model, idx) => (
                     <div data-aos-duration="200" data-aos="flip-right" key={idx} onMouseEnter={() => handleActive(idx)} onMouseLeave={() => handleActive(null)}
@@ -54,8 +55,8 @@ const RecentWork = () => {
                 <Link to={"/portfolio"} className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>
                     View Full Portfolio
                 </Link>
-                <h1 className='font-bold sm:text-4xl text-2xl text-headingDark mt-10'>
-                    Every design we create carries a little bit of your world <br/>and a whole lot of our care
+                <h1 className='font-bold sm:text-4xl text-2xl text-headingDark mt-10' style={{display: 'none'}}>
+                    Every design we create carries a little bit of your world <br/>and a whole lot of our care
 
                 </h1>
             </div>

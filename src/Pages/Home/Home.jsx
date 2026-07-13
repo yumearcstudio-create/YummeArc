@@ -71,10 +71,10 @@ const Home = () => {
         <OurProcess />
         <Testimonals />
         <CTA
-          heading={"Ready to Start Your VTuber Journey?"}
-          para={"Whether it’s your first model or a full rebrand we’re here to design with you, not just for you."}
-          cta1={"Start a Commission"}
-          cta2={"Contact Us"}
+          heading={"Trusted by creators building their next identity"}
+          para={"See real feedback from creators who worked with YumeArc on custom models, stream visuals, and character-focused assets."}
+          cta1={"Check Trustpilot Reviews"}
+          cta2={"Start a Project"}
         />
         <Footer />
       </Suspense>

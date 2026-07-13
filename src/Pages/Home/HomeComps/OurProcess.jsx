@@ -21,8 +21,7 @@ const OurProcess = () => {
                 to-transparent' />
             <span className='absolute top-0 left-0 w-full h-full opacity-10' style={{ backgroundImage: `url(${bgImage})`, backgroundPosition: 'center', backgroundSize: '120%' }}></span>
 
-            <h1 data-aos="flip-up" className='w-full text-center  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark  font-kaushans'>From Vision to Virtual Star</h1>
-            <p data-aos="fade-up" className='w-full text-center my-6 lg:text-xl text-lg font-merryWeater'>We take care of every step from concept to final render with care, precision, and passion.</p>
+            <h1 data-aos="flip-up" className='w-full text-center  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark  font-kaushans'>From rough idea to stream-ready visuals</h1>
 
             <div className='w-full grid  grid-cols-1 gap-8 mt-6'>
                 {our_process.map((process, idx) => (
