@@ -24,35 +24,35 @@ const Sec7_art2d = () => {
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem]'>
 
                 <h1 data-aos="fade-right" className='  font-kaushans font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark '>
-                    2D Art Scenes (Starting / Ending / BRB)
+                    Starting, BRB & Ending Screens
 
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
 
-                    Even when you're away, your stream should still feel like your world. We create lore-rich 2D scenes for Start, End, and BRB that keep your vibe alive.
+                    Custom stream scenes made to match your character's world, mood, and channel style. Instead of using a plain screen, these visuals help your stream feel more complete before, during, and after you go live.
 
 
                 </p>
 
                 <ul>
                     <li>
-                        Custom Background Art
+                        Designed around your character's theme and lore
 
                     </li>
                     <li>
-                         Your VTuber Model Can Be Included
+                         Custom scenes for Starting, BRB, Ending, or Offline screens
                     </li>
                     <li>
-                        Choose Scene Text (Starting, Ending, BRB)
+                        Can include cozy, fantasy, spooky, soft, or energetic moods
 
                     </li>
                     <li>
-                        Perfect for Twitch + Kick Layouts
+                        Sized for Twitch, YouTube, Kick, and stream overlays
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Design My Stream Scenes</button> 
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Create My Stream Screens</button> 
 
                 </div>
 

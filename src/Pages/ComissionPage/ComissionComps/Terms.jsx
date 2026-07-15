@@ -13,33 +13,33 @@ const Terms = () => {
         setIsActive(onMouse)
     }
     const process = [
-        { heaiding: 'Usage Rights', para: 'All commissions are for personal use only unless commercial rights are discussed and agreed upon. If you plan to use the art for merch, ads, or revenue-generating content, let us know first.' },
+        { heaiding: 'Usage rights', para: 'Personal use is included by default. If you plan to use the art for merch, ads, paid content, or larger commercial use, let us know before we start so we can confirm the rights clearly.' },
 
-        { heaiding: 'Revisions', para: 'We offer unlimited revisions during the sketch phase. Once we move to final rendering or rigging, major changes may not be possible or could include an extra fee — we’ll always inform you first.' },
+        { heaiding: 'Revisions', para: 'Revision rounds are included during the agreed stages. Big changes after sketch approval, final rendering, or rigging may affect the timeline or cost, but we will always tell you first.' },
 
-        { heaiding: 'Refunds', para: 'We only accept refunds before work begins. Once work starts, no refunds will be issued. If there’s an issue, we’re happy to discuss adjustments instead.', },
+        { heaiding: 'Refunds', para: 'Refunds can be discussed before work begins. Once the project has started, refunds are usually not available, but if something goes wrong, we will talk through the best way to handle it.', },
 
-        { heaiding: 'Communication', para: 'Once the 50% upfront is confirmed, your custom art begins its journey.' },
+        { heaiding: 'Project start', para: 'Your project starts once the scope, price, timeline, and upfront payment are confirmed.' },
 
-        { heaiding: 'Communication', para: 'All updates and progress are shared via Twitter or Discord. Please stay responsive during the process to avoid delays.' },
+        { heaiding: 'Updates', para: 'Progress and previews are shared through Discord or X / Twitter. Staying responsive helps us avoid delays and keep the project moving smoothly.' },
 
-        { heaiding: 'Rigging Options', para: 'We offer rigging for both 2D and 3D models. If you\'d like this service included, mention it while commissioning.' },
+        { heaiding: 'Rigging options', para: 'We can help with Live2D and 3D rigging depending on the project. If you need rigging included, mention it when you send your request.' },
 
-        { heaiding: 'Payment Terms', para: '50% upfront – 50% on final delivery. We accept multiple payment methods (PayPal, Wise, local banks, etc.).' },
+        { heaiding: 'Payment terms', para: 'Most projects are split into 50% upfront and 50% before final delivery. Available payment methods can be confirmed before starting.' },
 
     ]
     return (
-        <div className=' bg-secondaryDark flex flex-col items-center px-4 sm:px-28  2xl:px-80 py-20  min-h-screen text-textDark  relative '>
+        <div className=' bg-secondaryDark flex flex-col items-center px-4 sm:px-28  2xl:px-80 py-20  text-textDark  relative '>
             <AOSInitializer />
             {/* shading circle hai na idher sai start  */}
 
 
             {/* shading circle yaha sai khatam bus ok  */}
-            <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-primaryDark
+            <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent ' />
 
-            <h1 className='font-kaushans text-headingDark text-5xl'>Comission Open</h1>
-            <p data-aos="fade-up" className='text-center lg:text-lg text-sm w-full my-6  '>Terms & Important Notes of your Commission Page, written in your YummeArc voice and matching your theme
+            <h1 className='font-kaushans text-headingDark text-5xl'>Before we start your commission</h1>
+            <p data-aos="fade-up" className='text-center lg:text-lg text-sm w-full my-6  '>A few simple notes so the process stays clear, fair, and comfortable for both sides.
             </p>
 
             <div className='w-full grid  lg:grid-cols-2 grid-cols-1 gap-8 mt-6'>
@@ -57,7 +57,7 @@ const Terms = () => {
                 ))}
             </div>
 
-            <h1 className='w-full text-center text-xl font-semibold italic z-20 sm:px-20  mt-10'>🚫 Note: We do not work with any third-party artists or resellers. If someone claims to represent us outside our official platforms, please report it.</h1>
+            <h1 className='w-full text-center text-xl font-semibold z-20 sm:px-20  mt-10'>YumeArc only works through our official Discord, X / Twitter, website, and listed team members. If someone claims to represent us outside our official platforms, please check with us before sharing project details or making payment.</h1>
 
         </div>
     )

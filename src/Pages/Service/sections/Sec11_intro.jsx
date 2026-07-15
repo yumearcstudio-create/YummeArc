@@ -24,32 +24,32 @@ const Sec11_intro = () => {
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem]'>
 
                 <h1 data-aos="fade-right" className=' font-kaushans font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark '>
-                    Custom Intro & Outro Animations
+                    Intro / Outro Animation
 
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
 
-                    Your stream should open and close like a story. We design intro & outro animations that feel magical, dramatic, or just full of personality the way you want to be remembered.
+                    Short animated visuals made for stream openings, endings, debuts, transitions, or lore moments. We build the animation around your character's mood, theme, and atmosphere so it feels like part of your world, not just a random animated screen.
 
                 </p>
 
                 <ul>
                     <li>
-                        Fully Custom Animations (2D or Mixed)
+                        Designed around your character theme and lore
                     </li>
                     <li>
-                        Optional Sound Effects / Music Sync
+                        Great for openings, endings, debuts, and transitions
                     </li>
                     <li>
-                        Match VTuber Lore / Branding
+                        Can include 2D or 3D-style scene direction
                     </li>
                     <li>
-                        Twitch, YouTube, Kick Compatible
+                        Prepared for Twitch, YouTube, Kick, OBS, or Streamlabs
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start My Animation Project</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Create My Animation</button>
 
                 </div>
 

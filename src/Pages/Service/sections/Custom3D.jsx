@@ -28,28 +28,28 @@ const Custom3D = () => {
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
 
-                    Step into the third dimension. These models are crafted to move with you, feel like you, and connect deeper with your audience — in every blink, filt, and smile.
+                    A stylized 3D VTuber model designed around your character's theme, outfit, colors, and stream personality. Built for creators who want a more flexible model that can move naturally on stream.
 
                 </p>
 
                 <ul>
                     <li>
-                        Realistic Anime 3D Style
+                        Custom outfit, colors, and character styling
                     </li>
                     <li>
-                        Full Body Rig & Face Tracking Support
+                        Full-body movement and face tracking support
                     </li>
                     <li>
-                        Lore-Accurate Styling
+                        Built around your lore and visual direction
                     </li>
                     <li>
 
-                        * Ready for VSeeFace / VRoid / Animaze
+                        Prepared for VSeeFace, VRoid, or Animaze use
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Get My 3D Model Started</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start a 3D Model</button>
 
                 </div>
 

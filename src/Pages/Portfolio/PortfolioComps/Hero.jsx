@@ -11,20 +11,15 @@ const Hero = () => {
                 to-transparent' />
             <AOSInitializer />
             <h1 data-aos="flip-up" className='  font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
-                A Story in Every Model
+                Every piece starts with a character.
 
             </h1>
             <p data-aos="fade-up" className='lg:text-2xl text-lg text-center mt-6'>
-                A Showcase of Custom VTuber Worlds, Crafted with Emotion
-            </p>
-
-            <p data-aos="fade-up" className='lg:text-lg text-sm text-center mt-6'>
-                From soft & charming to bold & wild, each model we build is a unique reflection of its creator.
-                We let the art do most of the talking.
+                Explore custom models, chibi panels, emotes, PFPs, stream scenes, and visual assets made to reflect each creator's lore, personality, and visual direction.
             </p>
 
 
-            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Request Your Own</button>
+            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Start Your Project</button>
 
             {/* <img src={heroImg} alt="" className='w-[800px]  ' /> */}
             <div className='w-[90%]  lg:w-[1000px] h-[300px] sm:h-[500px]  ' style={{

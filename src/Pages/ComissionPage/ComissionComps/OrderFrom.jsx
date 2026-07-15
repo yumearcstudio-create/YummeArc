@@ -19,29 +19,26 @@ const OrderFrom = () => {
                     <div data-aos="fade-in" className='lg:w-1/2 w-full lg:items-start md:items-center pt-10 space-y-12 '>
 
                         <h1 className=' w-full text-left z-20  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark font-kaushans'>
-                            Wanna place a commission?
+                            Ready to talk through your idea?
                         </h1>
-                        <p className='text-xl font-merryWeater'>We handle all commission requests through Twitter DMs or Discord!
-                            That’s where we’ll chat, plan, and send all previews and updates 💬💕
-                            <br /> <br />
-                            Just hit us up we’re friendly, responsive, and super excited to hear your idea!
+                        <p className='text-xl font-merryWeater'>Reach out through Discord or X / Twitter and send whatever you have so far: lore, references, a current model, a rough idea, or the feeling you want. We'll help clarify the direction before giving you the next steps.
 
 
                         </p>
 
                         <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg  '>
                             <a
-                                href="https://x.com/yumearcstudio?s=21"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'> Message on Twitter </a>
-
-                            <a
                                 href="https://discord.gg/f8Y8yrVNdP"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className='px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md '>Message on Discord 
+                                className='px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Message on Discord 
                             </a>
+
+                            <a
+                                href="https://x.com/yumearcstudio?s=21"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='px-8 py-2  font-bold cursor-pointer transition-all duration-300   text-headingDark border-[1px] sm:hover:-translate-y-2 border-headingDark text-center rounded-md '>Message on X / Twitter </a>
                         </div>
                     </div>
                     <div data-aos="fade-in" className=' lg:w-[450px] w-full  h-[28rem] pt-4  ' style={{ backgroundImage: `url("${heroImg}")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />

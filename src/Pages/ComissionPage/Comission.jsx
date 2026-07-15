@@ -71,9 +71,9 @@ const Comission = () => {
         <OrderFrom />
         <Terms />
         <CTA
-          heading="Start Your Commission"
-          para="Tell us about your character, your dream, and how we can bring it to life.<br/>We’ll reply within 24 hours with your quote and next steps!"
-          cta1="Start Your Request Form"
+          heading="Ready to share your idea?"
+          para="Send us your lore, references, current model, rough notes, or just the feeling you want your character to have. We'll review it, help clarify the direction, and send the next steps."
+          cta1="Send Your Request"
         />
         <Footer />
       </Suspense>

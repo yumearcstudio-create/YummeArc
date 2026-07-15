@@ -7,7 +7,7 @@ const CTA = ({heading , para , cta1 ,ctaLink1 , cta2 ,ctaLink2 }) => {
         const { setIsFormOpen} = useContext(ContextAPI)
     
     return (
-        <div className='w-full 2xl:px-80 px-8 bg-gradient-to-tl from-primaryDark to-secondaryDark text-headingDark  flex flex-col justify-center items-center py-20   relative text-center'>
+        <div className='w-full 2xl:px-80 px-8 bg-gradient-to-tl from-primaryDark to-secondaryDark text-headingDark  flex flex-col justify-center items-center py-24 relative text-center z-30'>
             <AOSInitializer/>
                 <h1 data-aos="flip-up" className=' font-[600] lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]'>
                 {heading}

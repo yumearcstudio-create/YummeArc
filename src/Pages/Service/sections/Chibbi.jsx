@@ -30,27 +30,27 @@ const Chibbi = () => {
                     Chibi Panels
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
-                    Mini versions, max personality. We design chibi panels that speak your vibe- whether you're soft, chaotic, or spooky.
+                    Chibi-style stream panels designed around your character, theme, and channel sections. Each panel can have its own small scene, expression, or background so your profile feels more personal than a basic text panel.
                 </p>
                 <ul>
                     <li>
-                        Matched to Your Model Style
+                        Matched to your model, outfit, and theme
                     </li>
                     <li>
-                        Themed Backgrounds
+                        Scene-based backgrounds for each section
                     </li>
                     <li>
-                        Multiple Expressions / Outfits
+                        Custom expressions, poses, and small details
                     </li>
                     <li>
 
-                        Twitch + Kick Compatible Sizes
+                        Sized for Twitch, Kick, Discord, or socials
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
                     <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>
-                        Build My Chibi Pack
+                        Build My Chibi Panels
                     </button>
 
                 </div>

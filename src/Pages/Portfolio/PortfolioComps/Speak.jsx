@@ -73,15 +73,13 @@ const Speak = () => {
 
             <AOSInitializer />
             <h1 data-aos="flip-up" className='  font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full  font-bold text-center'>
-                Our Work Speaks First
+                Models & Character Builds
             </h1>
             <p data-aos="fade-up" className='lg:text-xl text-lg text-center '>
-                A Showcase of Custom VTuber Worlds, Crafted with Emotion
-                From soft & charming to bold & wild, each model we build is a unique
-                reflection of its creator. We let the art do most of the talking.
+                From Live2D models and chibi versions to 3D avatars and PNGTubers, these are the character builds shaped around each creator's look, mood, and stream presence.
             </p>
 
-            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Request Your Own</button>
+            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>View More Models</button>
 
 
             <div className='w-full grid grid-cols-2 lg:grid-cols-3  xl:gap-8 lg:gap-6 gap-4 mt-6 '>

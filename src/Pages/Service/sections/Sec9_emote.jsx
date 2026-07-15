@@ -28,31 +28,31 @@ const Sec9_emote = () => {
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
 
-                    From spicy rages to sparkly hearts we create emotes that scream your vibe in just one glance. Each emote and badge is drawn from your world.
+                    Expressive emotes and badges made for chat reactions, community moments, and the little inside jokes that make your stream feel alive. We design them to match your character's expressions, colors, and personality so they feel like part of your identity.
 
                 </p>
 
                 <ul>
                     <li>
-                       Hand-Drawn in Your Style
+                       Custom expressions based on your character
                     </li>
                     <li>
-                        Based on Your Model & Personality
+                        Emotes for hype, laughs, reactions, alerts, and community moments
 
                     </li>
                     <li>
-                      Sub Badges with Tiered Progression
+                      Subscriber badges or loyalty icons matched to your theme
 
 
                     </li>
                     <li>
-                       Optimized for Twitch + Discord
+                       Sized and prepared for Twitch, Discord, YouTube, or Kick
 
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Order My Emotes & Badges</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Create My Emotes</button>
 
                 </div>
 

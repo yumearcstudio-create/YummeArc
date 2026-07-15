@@ -7,39 +7,39 @@ import { Link } from 'react-router-dom';
 const FAQs = () => {
     const faqs = [
         {
-            question: "Do I need a reference sheet for a model or panel design?",
+            question: "Do I need a full reference sheet to start?",
             answer:
-                "Nope! You can share anything references, your vibe, a Pinterest board, or even just a description. We’ll handle the rest.",
+                "No. You can send lore, moodboards, Pinterest boards, screenshots, rough notes, or even just a description. We can help shape the visual direction from there.",
         },
         {
-            question: "Can I order just one emote or one panel?",
+            question: "Can I order just one emote, panel, or asset?",
             answer:
-                "Yes, absolutely! We accept both single and bundled orders.",
+                "Yes. You can order a single asset or build a full custom package around your model and stream identity.",
         },
         {
-            question: "What if I want revisions?",
+            question: "What if my idea still feels messy?",
             answer:
-                "We offer unlimited revisions until you're satisfied. We're obsessed with making it perfect for you.",
+                "That's completely fine. A lot of creators come to us with scattered references or a feeling they can't fully explain yet. We'll help clarify the direction before moving into the final artwork.",
         },
         {
-            question: "Do you provide rigging too?",
+            question: "Do you offer rigging too?",
             answer:
-                "Yes! We handle both 2D and 3D rigging in-house. You’ll get everything ready to use.",
+                "Yes, we can help with Live2D and 3D rigging depending on the project. We'll confirm what's included before starting.",
         },
         {
-            question: "How do payments work?",
+            question: "How do payments usually work?",
             answer:
-                "We usually do 50% upfront, 50% on delivery. We accept multiple payment methods including PayPal, Wise, Bank Transfer, and more just let us know what works for you!",
+                "Most projects start with an upfront payment, with the remaining balance handled before final delivery. Payment details can depend on the project size, and we can discuss what works best before starting.",
         },
         {
-            question: "Is the art fully custom or template-based?",
+            question: "Is the work custom or template-based?",
             answer:
-                "Everything is 100% hand drawn from scratch. No templates. No AI tracing. Just pure, personalized art.",
+                "Our work is made around your character, lore, references, and stream needs. We don't want your assets to feel like something anyone else could use.",
         },
         {
             question: "Can I use the art commercially?",
             answer:
-                "Yep! Unless stated otherwise, all deliveries include full commercial rights you're free to stream, monetize, and shine.",
+                "Most projects include commercial use for streaming and content creation unless something different is discussed before starting. We'll make the usage clear before the project begins.",
         },
     ];
 
@@ -60,7 +60,7 @@ const FAQs = () => {
                 <h1 data-aos="fade-right" className=' font-kaushans font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark '>
                     Frequently Asked Questions
                 </h1>
-                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>At YummeArc, every Still got questions? We got answers. And if it's not listed here — just shoot us a message. We're super chill about it.
+                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>Not sure how the process works yet? Here are a few things creators usually ask before starting a project with YumeArc.
 
                 </p>
 
@@ -78,9 +78,9 @@ const FAQs = () => {
 
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <Link to={"/comission"} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Commission</Link>
+                    <Link to={"/comission"} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start a Project</Link>
 
-                    <Link to={"/portfolio"} className=' px-8 py-2 text-white font-semibold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md border-[1px] border-white'> View Portfolio</Link>
+                    <Link to={"/portfolio"} className=' px-8 py-2 text-white font-semibold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md border-[1px] border-white'> See the Portfolio</Link>
                 </div>
 
 

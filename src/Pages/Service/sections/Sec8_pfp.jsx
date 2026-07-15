@@ -30,27 +30,27 @@ const Sec8_pfp = () => {
                     Custom PFP Design
                 </h1>
                 <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>
-                    Your first impression deserves more than a screenshot. We create stylized PFPs that match your model’s energy, emotion, and aesthetic and make people click.
+                    Profile art designed to make your character easy to recognize across Twitch, Discord, X, YouTube, and other socials. We focus on the expression, colors, and small details that still read clearly in a tiny profile circle.
                 </p>
 
                 <ul>
                     <li>
-                        Based on Your VTuber Model
+                        Designed around your character's look and personality
                     </li>
                     <li>
-                        Headshot / Bust-Up Style
+                        Clear expression and readable silhouette
                     </li>
                     <li>
-                         Custom Borders & Backgrounds
+                         Sized for profiles, socials, and community spaces
 
                     </li>
                     <li>
-                        Optimized for Twitch / Discord / YouTube / X 
+                        Can be soft, cute, chaotic, dark, cozy, or fully themed
                     </li>
                 </ul>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Get My Custom PFP</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Create My PFP</button>
 
                 </div>
 

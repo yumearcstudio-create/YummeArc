@@ -84,15 +84,15 @@ const ArtScenes = () => {
       <AOSInitializer />
 
       <h1 data-aos="flip-up" className=" font-kaushans lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full font-bold text-center">
-        2D & 3D Art Scenes
+        Scenes, Screens & Motion
       </h1>
 
       <p data-aos="fade-up" className="lg:text-xl text-lg text-center ">
-        Bring Your Stream World to Life with Stunning 2D & 3D Scenes
+        Stream scenes and animated visuals built to set the mood before, during, and after the stream, from quiet BRB moments to cinematic lore-based openings.
       </p>
 
       <button onClick={() => setIsFormOpen(true)} className="px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2">
-        Request Your Own
+        View More Stream Visuals
       </button>
 
       <div className="w-full grid grid-cols-2 lg:grid-cols-3 xl:gap-8 lg:gap-6 gap-4 mt-6">

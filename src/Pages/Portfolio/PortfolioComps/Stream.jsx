@@ -60,13 +60,11 @@ const Stream = () => {
 
             <AOSInitializer />
             <h1 data-aos="flip-up" className=' font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full  font-bold text-center'>
-                Stream Panels & Custom Overlays
+                Stream Identity Assets
             </h1>
             <p data-aos="fade-up" className='lg:text-xl text-lg text-center '>
-                Chibi-style panels, character-based layouts, and vibrant overlays crafted to match each VTuber’s vibe perfectly.
+                Panels, PFPs, emotes, and badges made to keep a creator's character recognizable across Twitch, Discord, X, YouTube, and their community spaces.
             </p>
-
-            {/* <button className='  px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Request Your Own</button> */}
 
 
             <div className='w-full grid grid-cols-2 lg:grid-cols-3  xl:gap-8 lg:gap-6 gap-4 mt-6 '>

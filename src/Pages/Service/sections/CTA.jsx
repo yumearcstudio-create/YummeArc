@@ -24,10 +24,10 @@ const CTA = () => {
             <div className='md:w-2/3 w-full  justify-center text-left  flex flex-col  gap-y-6 sm:p-16 p-4 min-h-[24rem]'>
 
                 <h1 data-aos="fade-right" className=' font-kaushans font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark '>
-                    Let’s Create Something Magical Together
+                    Still figuring out your character direction?
 
                 </h1>
-                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>Whether it’s a new model, emotes, or full stream setup we’re here to build what your audience will love. Just say hi and we’ll handle the rest
+                <p data-aos="fade-right" className='font-merryWeater lg:text-lg text-sm '>You don't need every detail figured out before reaching out. If you have lore, references, a current model, or even just a messy idea, we can help shape the direction and figure out what fits your character best.
 
                 </p>
 
@@ -38,7 +38,7 @@ const CTA = () => {
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
                     {/* <button className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start My Commission</button> */}
 
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-white font-semibold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md border-[1px] border-white'> Send Me a Concept</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start With Your Idea</button>
                 </div>
 
 

@@ -47,12 +47,16 @@ const Service = () => {
         <Custom />
         <Custom3D />
         <Chibbi />
-        <Sec5_vtuber />
+        <div className='hidden'>
+          <Sec5_vtuber />
+        </div>
         {/* <Sec6_lorebased /> */}
         <Sec7_art2d />
         <Sec8_pfp />
         <Sec9_emote />
-        <Sec10_overlay />
+        <div className='hidden'>
+          <Sec10_overlay />
+        </div>
         <Sec11_intro />
         <FAQs />
         <CTA />

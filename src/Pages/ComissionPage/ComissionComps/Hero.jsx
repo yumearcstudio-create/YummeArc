@@ -14,7 +14,7 @@ const Hero = () => {
         <div className='relative overflow-hidden'>
 
 
-            <div className='w-full xl:h-[37rem] lg:h-[40rem] h-auto bg-secondaryDark text-textDark   px-4 xl:px-28 sm:px-20  2xl:px-80   flex  '>
+            <div className='w-full xl:h-[40rem] lg:h-[40rem] h-auto bg-secondaryDark text-textDark   px-4 xl:px-28 sm:px-20  2xl:px-80   flex  '>
 
 
                 {/* <span className='w-full h-full absolute top-0 left-0 z-20  bg-pinkText/50' /> */}
@@ -44,23 +44,21 @@ const Hero = () => {
                     <div data-aos="fade-in" className='lg:w-1/2 w-full lg:items-start md:items-center pt-10 space-y-12 '>
 
                         <h1 className=' font-[600]  lg:text-[3.5rem] text-5xl leading-[1.1] text-headingDark'>
-                            Start Your Custom VTuber Journey ✨
+                            Start with the idea, even if it's messy.
 
 
                         </h1>
-                        <p className='text-xl font-merryWeater'>We turn stories, ideas & dreams into stream-ready magic.
-                            It starts with one message 
+                        <p className='text-xl font-merryWeater'>Tell us about your character, lore, references, current model, or just the feeling you want. We'll help clarify the direction first, then guide you toward the right model, panels, emotes, or stream visuals.
 
                         </p>
 
                         <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg  '>
        
-                            <button onClick={() => setIsFormOpen(true)} className='  px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'> Let’s Begin </button>
+                            <button onClick={() => setIsFormOpen(true)} className='  px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'> Start Your Request </button>
                         </div>
                     </div>
 
                     <div loading='lazy' data-aos="fade-in" className=' lg:w-1/2 w-full lg:h-full h-[30rem] pt-4  ' style={{ backgroundImage: `url("${heroImg}")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
-
 
 
 

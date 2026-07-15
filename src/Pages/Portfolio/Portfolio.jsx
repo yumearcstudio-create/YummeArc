@@ -65,9 +65,13 @@ const Portfolio = () => {
         <Hero />
         <Speak />
         <Stream />
-        <Emotes />
+        <div className='hidden'>
+          <Emotes />
+        </div>
         <ArtScenes />
-        <PFP />
+        <div className='hidden'>
+          <PFP />
+        </div>
         <CTA1 />
         <Footer />
       </Suspense>
