@@ -6,12 +6,12 @@ import { WiStars } from "react-icons/wi";
 
 //imports of recent models
 
-import model_1 from '../Assets/Images/HomeImages/Vtuber_1.png'
-import model_2 from '../Assets/Images/HomeImages/Vtuber_2.png'
-import model_3 from '../Assets/Images/HomeImages/Work_card_3.jpg'
-import model_4 from '../Assets/Images/HomeImages/Work_card_4.jpg'
-import model_5 from '../Assets/Images/HomeImages/Vtuber_5.png'
-import model_6 from '../Assets/Images/HomeImages/Work_card_6.jpg'
+import model_1 from '../Assets/Images/HomeImages/halo-angel-model.png'
+import model_2 from '../Assets/Images/HomeImages/orange-fox-chibi.png'
+import model_3 from '../Assets/Images/HomeImages/steampunk-panel-set.png'
+import model_4 from '../Assets/Images/HomeImages/go-happy-hyped-emotes.png'
+import model_5 from '../Assets/Images/HomeImages/red-hoodie-catboy-pfp.png'
+import model_6 from '../Assets/Images/HomeImages/cinematic-stream-intro.png'
 
 
 //imports of processs
@@ -67,33 +67,33 @@ export const weCreate =[
 ]
 
 export const recentModels =[
-    {name : "Halo Angel Model" , description : "A radiant fox-spirit born from embers and stars. Her expressive design and vivid glow were crafted to mesmerize perfectly rigged for dynamic live streaming and storytelling*" , model : model_1},
+    {name : "Halo Angel Model" , description : "A soft angel-inspired Live2D model with gentle colors, clean outfit details, and a friendly design made to feel memorable across stream and socials." , model : model_1},
     
-    {name : "Aren, The Lost Echo" , description : "A lone wanderer from a forgotten realm, Aren’s fully rigged 3D model brings depth and realism to virtual worlds. Ideal for creators seeking immersive expression and adventure in every motion." , model : model_2},
+    {name : "Orange Fox Chibi" , description : "A cute fox-inspired chibi model with bright colors, playful expressions, and smooth movement made for stream reactions and personality moments." , model : model_2},
 
-    {name : "Whispering Realms" , description : "2D Art Scenes for Stream Starting, Ending & BRBs Every stream deserves a cinematic touch. These hand-painted art scenes set the mood before you even say a word perfect for creating emotional, immersive transitions that leave a lasting impression." , model : model_3},
+    {name : "Steampunk Panel Set" , description : "A chibi-style panel set with warm steampunk details, realistic scene backgrounds, and clear sections made to keep the channel feeling personal and polished." , model : model_3},
 
-    {name : "Immersive Studio Worlds" , description : "Transform your stream into a cinematic masterpiece. Our custom-built 3D scenes bring depth, light, and motion to your starting/ending screens or BRBs, making your room as legendary as your avatar." , model : model_4},
+    {name : "GG / Happy / Hyped Emotes" , description : "A set of expressive chat emotes made for quick reactions, community moments, and small character details your audience can actually use." , model : model_4},
 
-    {name : "KuroBytes" , description : "A techy wolf-boy who runs your stream behind the scenes! These chibi-style panels show off your personality with charm, perfect for stream overlays, bios, or section breaks with flair." , model : model_5},
+    {name : "Red Hoodie Catboy PFP" , description : "A clean character PFP with sharp catboy details, bold red accents, and a readable expression made to stand out across profiles and socials." , model : model_5},
 
-    {name : "Lore-Based Intro Cinematics" , description : "Short animated intros that bring your VTuber backstory to life like an opening scene from your own anime. Perfect for debuts, trailers, or stream openers." , model : model_6},
+    {name : "Cinematic Stream Intro" , description : "A cinematic 3D scene with moody lighting, room details, and a slow reveal made for stream openings, debuts, or lore moments." , model : model_6},
 
     
 ]
 
 export const our_process = [
-    {heaiding : 'Step 1: Discovery' ,  para : 'We start with you your lore, vibe, inspirations, and goals. Whether it’s a simple PNGTuber or a full-blown magical OC, we get to know everything.' , icon : < FaBrain />},
-    {heaiding : 'Step 2: Concept & Sketch' ,  para : 'We sketch early ideas and send previews. You give feedback. This step lets you shape the vibe before anything’s finalized.' , icon : <FaPen />},
-    {heaiding : 'Step 3: Final Model Art' ,  para : 'Once approved, we render the full piece with polish, emotion, and deep detail. You\'ll see your character come to life.' , icon : <FaHeart />},
-    {heaiding : 'Step 4: Delivery & Support' ,  para : 'You receive clean files rig-ready, high-res, or for panels/branding. We’re here for post-delivery questions or add-ons.' , icon : <FaBox />},
-    {heaiding : 'Step 5: Debut Ready Extras ' ,  para : 'Need help with banners, panels, or extra poses? We offer creative add-ons based on your needs.' , icon : <FaStar />},
+    {heaiding : 'Step 1: We explore the idea' ,  para : 'We talk through your lore, mood, references, and character goals while also helping you clarify the direction if things still feel messy or unfinished.' , icon : < FaBrain />},
+    {heaiding : 'Step 2: We shape the concept' ,  para : 'We narrow the look, outfit details, expressions, and overall visual style so the character starts feeling more clear and consistent.' , icon : <FaPen />},
+    {heaiding : 'Step 3: Rough sketch first' ,  para : 'We create an initial sketch so you can see the pose, structure, outfit flow, and main design direction before we move further.' , icon : <FaHeart />},
+    {heaiding : 'Step 4: Color, shade, and refine' ,  para : 'Once the sketch feels right, we move into clean lines, colors, shading, and the final visual details.' , icon : <FaBox />},
+    {heaiding : 'Step 5: Final files and stream-ready delivery' ,  para : 'We prepare clean exports and final files so your model, panels, emotes, or stream assets are ready to use across your platforms.' , icon : <FaStar />},
 ]
 
 export const testimonals_home = [
-    {client_name : "AikoVT" , review : "YumeArc completely understood my character’s soul. The attention to detail was insane, and the process was super smooth!"},
-    {client_name : "ErlicOnAir" , review : "The model design captured my lore perfectly. It wasn’t just a drawing—it was a story in motion."},
-    {client_name : "Voidcaster" , review : "My lore felt complicated… but they actually made it beautiful.  I’ve never been so excited to see myself as a character."},
-    {client_name : "NyanyaLive" , review : "The chibi panels? TOO cute.  It matched my stream's energy perfectly I get compliments every day."},
+    {client_name : "AikoVT" , review : "\u201CI have lore, but no clear visual direction.\u201D We help turn the story into colors, outfit details, expressions, and stream assets that actually make sense together."},
+    {client_name : "ErlicOnAir" , review : "\u201CMy current model is okay, but it doesn\u2019t fully feel like me.\u201D We look at what\u2019s working, what feels off, and what could make the character stronger without losing the parts you still like."},
+    {client_name : "Voidcaster" , review : "\u201CI need panels, emotes, or stream visuals that match my character.\u201D We design supporting assets so your channel feels consistent instead of looking like random pieces from different places."},
+    {client_name : "NyanyaLive" , review : "\u201CI have references, but I don\u2019t know how to explain the vibe.\u201D That\u2019s fine. We help shape the mood, theme, and visual direction before moving into the artwork."},
 
 ]

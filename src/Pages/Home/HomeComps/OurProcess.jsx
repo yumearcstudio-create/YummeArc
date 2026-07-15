@@ -40,7 +40,7 @@ const OurProcess = () => {
 
             <div className='w-full flex flex-col gap-y-4 justify-center items-center text-center mt-10 z-20'>
                 <h1 className='font-semibold text-2xl '>
-                    Have something custom in mind? Let’s make it real together
+                    Have a character idea that needs a custom approach?
 
                 </h1>
                 <span onClick={() => setIsFormOpen(true)} className='text-xl bg-buttonPrimary text-headingDark font-semibold px-8 py-2 rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-2  mt-10'>

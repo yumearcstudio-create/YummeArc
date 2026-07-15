@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 import whyYmmearc from '../../../Assets/Images/HomeImages/heartChar.png'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
-import { Link } from 'react-router-dom'
 
 
 const Heart = () => {
+    const { setIsFormOpen } = useContext(ContextAPI)
+
     return (
         <div className='w-full  z-30 grid lg:grid-cols-2 grid-cols-1 gap-10    text-textDark bg-secondaryDark relative pt-10  px-4  sm:px-20 xl:px-28 3xl:px-80'>
             <AOSInitializer />
@@ -42,7 +44,7 @@ const Heart = () => {
                 </p>
 
                 <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 z-20'>
-                    <button onClick={() => {}} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start a Project</button>
+                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Start a Project</button>
                 </div>
 
 

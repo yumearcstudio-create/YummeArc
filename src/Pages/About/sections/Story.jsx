@@ -11,24 +11,27 @@ const Story = () => {
 
       <AOSInitializer />
       <h1 data-aos="flip-up" className='   font-kaushans lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
-        How YumeArc Began
+        How YumeArc began
 
 
       </h1>
       <div className='w-full flex md:flex-row flex-col justify-evenly items-center gap-x-10'>
         <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
-          YumeArc was born from a simple idea that a VTuber model isn’t just “art,” it’s a living part of your story.
-          We started as anime fans creating designs for friends, but quickly realized there was a need for models that felt personal, not generic.
-          Since then, we’ve worked with streamers worldwide, turning backstories into fully realized characters that connect with their audience on an emotional level
+          YumeArc started from something we kept seeing with creators: they had lore, personality, references, and ideas in their head, but didn&rsquo;t always know how those things should look visually. A character can have a strong backstory, but still feel hard to turn into colors, outfits, expressions, panels, or stream scenes.
+
         </p>
 
         
 
       </div>
 
-      <Link to={"/portfolio"} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>See Our Full Portfolio</Link>
+      <p data-aos="fade-up" className='lg:text-xl text-lg text-center'>
+        That&rsquo;s where we wanted YumeArc to be different. We don&rsquo;t just ask what you want drawn. We listen to the character you&rsquo;re trying to build, help clarify the direction, and then create visuals that feel personal, connected, and easier for your audience to remember.
+      </p>
 
-      <div className='w-full flex md:flex-row flex-col justify-center items-center'>
+      <Link to={"/portfolio"} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>See Our Work</Link>
+
+      <div className='w-full flex md:flex-row flex-col justify-center items-center' style={{display: 'none'}}>
         <h1 className='text-2xl sm:text-5xl lg:text-7xl font-semibold sm:text-left text-center'>Every Story Starts With a Character..</h1>
         <img src={Img2} alt="" className='xl:w-[500px] md:w-[400px]  ' />
       </div>

@@ -12,17 +12,17 @@ const CTAsection = () => {
 
             <AOSInitializer/>
 
-                        <h1 data-aos="flip-up" className=' font-kaushans   lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
-                Ready to Bring Your Character to Life?
+            <h1 data-aos="flip-up" className=' font-kaushans   lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
+                Ready to shape your character with us?
             </h1>
             <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
-                Let’s create something unforgettable together. Whether you need a main VTuber model, expressive chibis, or custom stream panels we’re here to make it happen.
+                Bring the lore, references, messy ideas, or just the feeling you want your character to have. We&rsquo;ll help turn it into visuals that feel connected, personal, and ready for stream.
 
 
             </p>
 
             <div className='flex md:flex-row flex-col justify-evenly items-center w-full'>
-                <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2 max-h-fit'>Start Your Project</button>
+                <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2 max-h-fit'>Start a Project</button>
 
                 <img src={Img6} alt="" className='flex-1  max-w-[500px]' />
             </div>

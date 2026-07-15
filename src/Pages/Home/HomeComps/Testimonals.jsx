@@ -17,9 +17,9 @@ const Testimonals = () => {
       <AOSInitializer />
 
       <h1 data-aos="flip-up" className=' font-[600] font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark'>
-        What Our Clients Says
+        What creators usually come to us with
       </h1>
-      <p data-aos="fade-up" className='font-merryWeater lg:text-lg text-sm w-full my-6  '>Streamers who trusted us and felt seen, styled, and supported.
+      <p data-aos="fade-up" className='font-merryWeater lg:text-lg text-sm w-full my-6  '>Most ideas don&rsquo;t start perfectly clear. That&rsquo;s normal. We help turn scattered lore, references, and stream goals into visuals that feel connected.
       </p>
 
       <div className='w-full flex flex-col  gap-8 mt-6 text-headingDark'>
@@ -74,10 +74,10 @@ const Testimonals = () => {
       <div className='w-full flex flex-col gap-y-4 mt-10 justify-center items-center text-center'>
         <TrustPilotBadge/>
         <h1 className='font-semibold text-2xl'>
-          Trusted by creators building their next identity
+          Have a character idea that needs a custom approach?
         </h1>
         <button onClick={() => setIsFormOpen(true)} className='text-xl bg-buttonPrimary text-headingDark font-semibold px-8 py-2 rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-2 mt-10'>
-          Start a Custom Project
+          Start a Project
         </button>
       </div>
 

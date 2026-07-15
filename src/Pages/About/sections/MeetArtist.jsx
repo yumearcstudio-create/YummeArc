@@ -143,8 +143,11 @@ const MeetArtist = () => {
         data-aos="flip-up"
         className="  font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold"
       >
-        Anime-Loving Artists <br /> Lore-Fueled Creators.
+        Official YumeArc Team Members
       </h1>
+      <p data-aos="fade-up" className='lg:text-lg text-base text-center mt-4 max-w-4xl'>
+        These are the only official people working under YumeArc. If someone contacts you outside this list, please check with us through our official Discord or X before sharing project details or placing an order.
+      </p>
       <div className="w-full grid sm:grid-cols-2 grid-cols-1 xl:gap-8 lg:gap-6 gap-4 mt-16 ">
         {meetArtist.map((why, idx) => (
           <div
@@ -232,20 +235,17 @@ const MeetArtist = () => {
       <div className="z-20 p-8 text-center space-y-3 rounded-lg bg-pink-950 bg-opacity-10 mt-10 border-[1px] border-headingDark text-xl ">
         <h1 >
           <span className=" font-bold ">Important Note : </span> These are the
-          only official artists working under YumeArc. We do not collaborate
-          with anyone outside this list. If you have any questions, concerns, or
-          notice impersonation, please contact us through YumeArc’s official
-          Discord or Twitter. You may also submit a commission form, and the
-          YumeArc team will reach out to you directly. Always make sure to use
-          our official links before placing an order. Thankyou <br/> <br/>
-          
+          only official people working under YumeArc. If someone contacts you claiming to be from YumeArc and they are not listed here, please check with us before sharing project details or making any payment.
         </h1>
 
-        <a href="https://discord.gg/f8Y8yrVNdP" target="_blank" className="text-2xl underline underline-offset-2 ">YumeArc’s official Discord <br/> 
+        <p className="mt-4">
+          For questions, impersonation concerns, or commission help, use our official Discord or X / Twitter links below.
+        </p>
+
+        <a href="https://discord.gg/f8Y8yrVNdP" target="_blank" className="text-2xl underline underline-offset-2 block mt-4">YumeArc Official Discord 
           </a>
-        <br/>
         
-          <a href="https://x.com/YumearcStudio" target="_blank" className="text-2xl underline underline-offset-2 ">YumeArc’s official Twitter <br/> 
+          <a href="https://x.com/YumearcStudio" target="_blank" className="text-2xl underline underline-offset-2 block">YumeArc Official X / Twitter 
           </a>
       </div>
     </section>

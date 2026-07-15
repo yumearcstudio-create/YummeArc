@@ -11,15 +11,15 @@ const HeroSection = () => {
             <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-primaryDark
                 to-transparent' />
             <AOSInitializer />
-            <h1 data-aos="flip-up" className=' font-kaushans   lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
-                Anime-Loving Artists <br /> Lore-Fueled Creators.
+            <h1 data-aos="flip-up" className=' font-kaushans max-w-4xl  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
+                We&rsquo;re artists who care about the character behind the model.
 
             </h1>
-            <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
-                We’re a team of passionate artists who turn VTuber dreams into detailed, animated, and expressive designs from full models to stream overlays. Every project we touch is handcrafted with love, storytelling, and anime energy.
+            <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6 max-w-4xl'>
+                YumeArc is a small creative team creating VTuber models, PNGTubers, custom chibi panels, emotes, and stream visuals that feel connected to each creator&rsquo;s lore, personality, and direction.
             </p>
 
-            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Meet The Artist</button>
+            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Meet the Team</button>
 
             <div className='w-full flex justify-center items-center '>
                 <img src="https://res.cloudinary.com/dqflexfdy/image/upload/v1759427863/CHRACHTER_AB-01_dnrhtw.png" alt="" className="w-[180px] sm:w-[250px]" />
