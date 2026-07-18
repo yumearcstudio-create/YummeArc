@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className=' w-full  py-4 text-center bg-primaryDark text-white font-semibold text-xl'> © 2025 YummeArc — Made with sparkles, stories & coffee ☕✨
+            <div className=' w-full  py-4 text-center bg-primaryDark text-white font-semibold text-xl'> © 2025 YumeArc — Made with sparkles, stories & coffee ☕✨
 
             </div>
         </div>

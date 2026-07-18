@@ -1,5 +1,11 @@
 import React, { useContext, useState } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
+import title1 from '../../../Assets/Images/portfolio/stream-identity/title-1.jpeg'
+import title2 from '../../../Assets/Images/portfolio/stream-identity/title-2.png'
+import title3 from '../../../Assets/Images/portfolio/stream-identity/title-3.jpeg'
+import title4 from '../../../Assets/Images/portfolio/stream-identity/title-4.jpeg'
+import title5 from '../../../Assets/Images/portfolio/stream-identity/title-5.jpeg'
+import title6 from '../../../Assets/Images/portfolio/stream-identity/title-6.jpeg'
 
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 
@@ -21,23 +27,30 @@ const Stream = () => {
         { callit: "ChibiFox Twitch Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/1_be1m7v.jpg' },
         { callit: "Neon Green Chibi WolfBoy Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747076/2_l5v74w.jpg' },
         { callit: "Retro Pixel Gamer Chibi Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747082/3_wqvtub.jpg' },
-        { callit: "Gothic Rose Vampire Overlay Pack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747075/4_qazinx.jpg' },
+        { callit: "Moonveil Shrine Chibi PFP Set", icon: title1 },
+        { callit: "Starlily Neko Chibi PFP", icon: title2 },
+        { callit: "Shadowbyte Neko PFP", icon: title3 },
+        { callit: "Mintscribe Schedule Panel", icon: title6 },
+        { callit: "Aether Codex Rules Panel", icon: title5 },
+        { callit: "Aetherlink Social Panel", icon: title4 },
+        { callit: "Gothic Rose Vampire Overlay Pack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747075/4_qazinx.jpg', hidden: true },
 
-        { callit: "Hooded Shadow Stream Overlay Kit", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747080/5_q6ba78.jpg' },
-        { callit: "Seducky Mascot Stream Overlay Set", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747084/6_hh8dwy.jpg' },
-        { callit: "Chibi Kitty Style Panel", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747078/7_yjiepq.jpg' },
+        { callit: "Hooded Shadow Stream Overlay Kit", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747080/5_q6ba78.jpg', hidden: true },
+        { callit: "Seducky Mascot Stream Overlay Set", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747084/6_hh8dwy.jpg', hidden: true },
+        { callit: "Chibi Kitty Style Panel", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747078/7_yjiepq.jpg', hidden: true },
         { callit: "Genshin-Inspired Chibi Panels Hu Tao Theme", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/8_vdappe.jpg' },
 
         { callit: "Kawaii Catgirl Stream Panel Pack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747086/9_dvjkst.png' },
-        { callit: "Travesty Alligator MascotStream Pack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/10_ijhum4.jpg' },
-        { callit: "Metal Rock Stream OverlayPack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747093/11_d9k9c4.jpg' },
-        { callit: "Quintuplets Anime AlertOverlay", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747089/12_hyrnlr.jpg' },
+        { callit: "Travesty Alligator MascotStream Pack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/10_ijhum4.jpg', hidden: true },
+        { callit: "Metal Rock Stream OverlayPack", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747093/11_d9k9c4.jpg', hidden: true },
+        { callit: "Quintuplets Anime AlertOverlay", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747089/12_hyrnlr.jpg', hidden: true },
 
     ]
 
     const handleShowImage = (index) => {
+        const visibleStream = stream.filter(s => !s.hidden);
         setCurrentImageIndex(index);
-        setShowModal(stream[index].icon);
+        setShowModal(visibleStream[index].icon);
         setShowImageViewer(true);
     }
 
@@ -52,7 +65,7 @@ const Stream = () => {
               }, 1000); // 1 sec delay simulate (API call ka time)
           };
     // Slice data if not showing all
-    const visibleWork = showAll ? stream : stream.slice(0, 6);
+    const visibleWork = showAll ? stream.filter(s => !s.hidden) : stream.filter(s => !s.hidden).slice(0, 6);
     return (
         <section className='w-full bg-secondaryDark text-headingDark  px-4 sm:px-12 xl:px-64  2xl:px-80  xl:pt-40 flex flex-col  items-center relative min-h-screen gap-y-10 sm:py-10 py-20'>
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-primaryDark
@@ -115,7 +128,7 @@ const Stream = () => {
                             Loading...
                         </span>
                     ) : (
-                        showAll ? 'View Less' : 'View More'
+                        showAll ? 'See Less Stream Assets' : 'See More Stream Assets'
                     )}
                 </button>
             </div>
@@ -125,11 +138,12 @@ const Stream = () => {
                     {/* <span onClick={() => setShowImageViewer(false)} className='top-4 right-4 cursor-pointer text-3xl absolute text-white'><RxCross1/></span> */}
                     <button
                         onClick={() => {
+                            const visibleStream = stream.filter(s => !s.hidden);
                             const newIndex =
-                                (currentImageIndex - 1 + stream.length) %
-                                stream.length;
+                                (currentImageIndex - 1 + visibleStream.length) %
+                                visibleStream.length;
                             setCurrentImageIndex(newIndex);
-                            setShowModal(stream[newIndex].icon);
+                            setShowModal(visibleStream[newIndex].icon);
                         }}
                         className="px-4 left-4 top-1/2 text-white text-4xl font-bold z-50"
                     >
@@ -146,9 +160,10 @@ const Stream = () => {
 
                     <button
                         onClick={() => {
-                            const newIndex = (currentImageIndex + 1) % stream.length;
+                            const visibleStream = stream.filter(s => !s.hidden);
+                            const newIndex = (currentImageIndex + 1) % visibleStream.length;
                             setCurrentImageIndex(newIndex);
-                            setShowModal(stream[newIndex].icon);
+                            setShowModal(visibleStream[newIndex].icon);
                         }}
                         className="px-4 right-4 top-1/2 text-white text-4xl font-bold z-50"
                     >

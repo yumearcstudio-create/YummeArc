@@ -3,6 +3,13 @@ import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import img7 from '../../../Assets/Images/portfolio/2d & 3D Models/F7.png'
 import img10 from '../../../Assets/Images/portfolio/2d & 3D Models/F10.png'
 import img12 from '../../../Assets/Images/portfolio/2d & 3D Models/F12.png'
+import sukiKurohana from '../../../Assets/Images/portfolio/2d & 3D Models/suki-kurohana-2d-model.png'
+import rowanWolfhart from '../../../Assets/Images/portfolio/2d & 3D Models/rowan-wolfhart-2d-model.png'
+import lunaraBloomstaff from '../../../Assets/Images/portfolio/2d & 3D Models/lunara-bloomstaff-3d-model.png'
+import elowenPetalweave from '../../../Assets/Images/portfolio/2d & 3D Models/elowen-petalweave-2d-chibi-model.png'
+import kairoPawsley from '../../../Assets/Images/portfolio/2d & 3D Models/kairo-pawsley-2d-model.png'
+import nerissaTidefang from '../../../Assets/Images/portfolio/2d & 3D Models/nerissa-tidefang-2d-model.png'
+import rivenRedtail from '../../../Assets/Images/portfolio/2d & 3D Models/riven-redtail-pngtuber-mouth-open.png'
 
 
 
@@ -29,26 +36,35 @@ const Speak = () => {
          { callit: "Aureon Halo 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770743219/angel_enff3b.webp' },
         { callit: "Solarius Sage 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770210109/model_2_webp_aoxvoc.webp' },
         { callit: "Infernia 2D Chibi Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png' },
+        { callit: "Suki Kurohana 2D Model", icon: sukiKurohana },
+        { callit: "Rowan Wolfhart 2D Model", icon: rowanWolfhart },
+        { callit: "Lunara Bloomstaff 3D Model", icon: lunaraBloomstaff },
         { callit: "Aurelius Guard 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746124/F2_o3gcmr.png' },
 
         // { callit: "Neon Lyra 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746129/F3_ktyyqd.png' },
         { callit: "Frostbyte 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746058/F4_lzs9av.png' },
         { callit: "Shadowtail 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746058/F5_tokal0.png' },
-        { callit: "Azure Ranger 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746060/F6_u7xrr0.png' },
-        { callit: "Infernal Wraith 2D Model", icon: img7 },
-        { callit: "Obsidian Shade 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746149/F8_bfbsyj.png' },
-        { callit: "Silverblade Ronin 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746205/F9_jpss1z.png' },
+        { callit: "Azure Ranger 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746060/F6_u7xrr0.png', hidden: true },
+        { callit: "Infernal Wraith 2D Model", icon: img7, hidden: true },
+        { callit: "Obsidian Shade 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746149/F8_bfbsyj.png', hidden: true },
+        { callit: "Silverblade Ronin 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746205/F9_jpss1z.png', hidden: true },
 
-        { callit: "Crimson Trickster 2D Model", icon: img10 },
-        { callit: "Aetherfire Sentinel 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746224/F11_mmugmx.png' },
-        { callit: "Pixel Purrfect 2D Model", icon: img12 },
+        { callit: "Crimson Trickster 2D Model", icon: img10, hidden: true },
+        { callit: "Aetherfire Sentinel 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746224/F11_mmugmx.png', hidden: true },
+        { callit: "Pixel Purrfect 2D Model", icon: img12, hidden: true },
+        { callit: "Elowen Petalweave 2D Chibi Model", icon: elowenPetalweave },
+        { callit: "Kairo Pawsley 2D Model", icon: kairoPawsley },
+        { callit: "Nerissa Tidefang 2D Model", icon: nerissaTidefang },
+        { callit: "Riven Redtail PNGTuber Mouth Open", icon: rivenRedtail },
 
 
     ]
 
+    const visibleSpeaker = speaker.filter(s => !s.hidden);
+
     const handleShowImage = (index) => {
         setCurrentImageIndex(index);
-        setShowModal(speaker[index].icon);
+        setShowModal(visibleSpeaker[index].icon);
         setShowImageViewer(true);
     }
 
@@ -64,7 +80,7 @@ const Speak = () => {
     };
 
     // Slice data if not showing all
-    const visibleWork = showAll ? speaker : speaker.slice(0, 6);
+    const visibleWork = showAll ? speaker.filter(s => !s.hidden) : speaker.filter(s => !s.hidden).slice(0, 6);
 
     return (
         <section className='w-full bg-primaryDark text-headingDark sm:py-10 py-20  px-4 sm:px-12 xl:px-64  2xl:px-80  xl:pt-40 flex flex-col  items-center relative min-h-screen gap-y-10'>
@@ -79,7 +95,7 @@ const Speak = () => {
                 From Live2D models and chibi versions to 3D avatars and PNGTubers, these are the character builds shaped around each creator's look, mood, and stream presence.
             </p>
 
-            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>View More Models</button>
+            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2'>Start a Project</button>
 
 
             <div className='w-full grid grid-cols-2 lg:grid-cols-3  xl:gap-8 lg:gap-6 gap-4 mt-6 '>
@@ -128,7 +144,7 @@ const Speak = () => {
                             Loading...
                         </span>
                     ) : (
-                        showAll ? 'View Less' : 'View More'
+                        showAll ? 'View Less Models' : 'View More Models'
                     )}
                 </button>
             </div>
@@ -139,10 +155,10 @@ const Speak = () => {
                     <button
                         onClick={() => {
                             const newIndex =
-                                (currentImageIndex - 1 + speaker.length) %
-                                speaker.length;
+                                (currentImageIndex - 1 + visibleSpeaker.length) %
+                                visibleSpeaker.length;
                             setCurrentImageIndex(newIndex);
-                            setShowModal(speaker[newIndex].icon);
+                            setShowModal(visibleSpeaker[newIndex].icon);
                         }}
                         className="px-4 left-4 top-1/2 text-white text-4xl font-bold z-50"
                     >
@@ -159,9 +175,9 @@ const Speak = () => {
 
                     <button
                         onClick={() => {
-                            const newIndex = (currentImageIndex + 1) % speaker.length;
+                            const newIndex = (currentImageIndex + 1) % visibleSpeaker.length;
                             setCurrentImageIndex(newIndex);
-                            setShowModal(speaker[newIndex].icon);
+                            setShowModal(visibleSpeaker[newIndex].icon);
                         }}
                         className="px-4 right-4 top-1/2 text-white text-4xl font-bold z-50"
                     >

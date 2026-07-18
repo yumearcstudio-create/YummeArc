@@ -10,7 +10,7 @@ import model_1 from '../Assets/Images/HomeImages/halo-angel-model.png'
 import model_2 from '../Assets/Images/HomeImages/orange-fox-chibi.png'
 import model_3 from '../Assets/Images/HomeImages/steampunk-panel-set.png'
 import model_4 from '../Assets/Images/HomeImages/go-happy-hyped-emotes.png'
-import model_5 from '../Assets/Images/HomeImages/red-hoodie-catboy-pfp.png'
+import model_5 from '../Assets/Images/HomeImages/Gnarly-PFP.png'
 import model_6 from '../Assets/Images/HomeImages/cinematic-stream-intro.png'
 
 
@@ -46,7 +46,7 @@ export const weCreate =[
     {name : "3D VTuber Models" , description : "Stylized 3D models for a more interactive stream presence." , model : <MdOutline3dRotation />},
     {name : "PNGTuber Designs" , description : "Expressive PNG art for creators not ready for a full model yet." , model : <LuPanelLeft />},
 
-    {name : "Chibi Stream Panels" , description : "Cute panels for About, Rules, Credits, Donate, and more." , model : <DiNetbeans />},
+
 
     {name : "Custom Stream Panels" , description : "Clean panels matched to your character and theme." , model : <MdScreenshotMonitor />},
     
@@ -67,9 +67,9 @@ export const weCreate =[
 ]
 
 export const recentModels =[
-    {name : "Halo Angel Model" , description : "A soft angel-inspired Live2D model with gentle colors, clean outfit details, and a friendly design made to feel memorable across stream and socials." , model : model_1},
+    {name : "Halo Angel Model" , description : "A soft angel-inspired Live2D model with gentle colors, clean outfit details, and a friendly design made to feel memorable across stream and socials." , model : 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770743219/angel_enff3b.webp'},
     
-    {name : "Orange Fox Chibi" , description : "A cute fox-inspired chibi model with bright colors, playful expressions, and smooth movement made for stream reactions and personality moments." , model : model_2},
+    {name : "Orange Fox Chibi" , description : "A cute fox-inspired chibi model with bright colors, playful expressions, and smooth movement made for stream reactions and personality moments." , model : 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png'},
 
     {name : "Steampunk Panel Set" , description : "A chibi-style panel set with warm steampunk details, realistic scene backgrounds, and clear sections made to keep the channel feeling personal and polished." , model : model_3},
 
@@ -77,7 +77,7 @@ export const recentModels =[
 
     {name : "Red Hoodie Catboy PFP" , description : "A clean character PFP with sharp catboy details, bold red accents, and a readable expression made to stand out across profiles and socials." , model : model_5},
 
-    {name : "Cinematic Stream Intro" , description : "A cinematic 3D scene with moody lighting, room details, and a slow reveal made for stream openings, debuts, or lore moments." , model : model_6},
+    {name : "Cinematic Stream Intro" , description : "A cinematic 3D scene with moody lighting, room details, and a slow reveal made for stream openings, debuts, or lore moments." , model : model_6, type : 'video'},
 
     
 ]
@@ -91,9 +91,9 @@ export const our_process = [
 ]
 
 export const testimonals_home = [
-    {client_name : "AikoVT" , review : "\u201CI have lore, but no clear visual direction.\u201D We help turn the story into colors, outfit details, expressions, and stream assets that actually make sense together."},
-    {client_name : "ErlicOnAir" , review : "\u201CMy current model is okay, but it doesn\u2019t fully feel like me.\u201D We look at what\u2019s working, what feels off, and what could make the character stronger without losing the parts you still like."},
-    {client_name : "Voidcaster" , review : "\u201CI need panels, emotes, or stream visuals that match my character.\u201D We design supporting assets so your channel feels consistent instead of looking like random pieces from different places."},
-    {client_name : "NyanyaLive" , review : "\u201CI have references, but I don\u2019t know how to explain the vibe.\u201D That\u2019s fine. We help shape the mood, theme, and visual direction before moving into the artwork."},
+    {review : "\u201CI have lore, but no clear visual direction.\u201D", answer : "We help turn the story into colors, outfit details, expressions, and stream assets that actually make sense together."},
+    {review : "\u201CMy current model is okay, but it doesn\u2019t fully feel like me.\u201D", answer : "We look at what\u2019s working, what feels off, and what could make the character stronger without losing the parts you still like."},
+    {review : "\u201CI need panels, emotes, or stream visuals that match my character.\u201D", answer : "We design supporting assets so your channel feels consistent instead of looking like random pieces from different places."},
+    {review : "\u201CI have references, but I don\u2019t know how to explain the vibe.\u201D", answer : "That\u2019s fine. We help shape the mood, theme, and visual direction before moving into the artwork."},
 
 ]

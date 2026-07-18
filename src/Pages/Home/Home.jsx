@@ -74,6 +74,7 @@ const Home = () => {
           heading={"Trusted by creators building their next identity"}
           para={"See real feedback from creators who worked with YumeArc on custom models, stream visuals, and character-focused assets."}
           cta1={"Check Trustpilot Reviews"}
+          ctaLink1={"https://www.trustpilot.com/review/yumearc.com"}
           cta2={"Start a Project"}
         />
         <Footer />

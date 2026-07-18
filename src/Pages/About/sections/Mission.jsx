@@ -4,7 +4,7 @@ import { FaStar, FaShieldAlt, FaPaintBrush, FaEye } from 'react-icons/fa'
 
 const Mission = () => {
     return (
-        <section className='w-full bg-primaryDark text-headingDark sm:pb-20  px-4 sm:px-12 xl:px-64  2xl:px-80  py-10  flex flex-col justify-center items-center relative  gap-y-10'>
+        <section style={{display: 'none'}} className='w-full bg-primaryDark text-headingDark sm:pb-20  px-4 sm:px-12 xl:px-64  2xl:px-80  py-10  flex flex-col justify-center items-center relative  gap-y-10'>
             <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 

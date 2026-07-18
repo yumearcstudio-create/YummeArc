@@ -92,6 +92,7 @@ const MeetArtist = () => {
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "sophia_blade1",
       icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825332/11_jiek9v.png",
+      hidden: true,
     },
 
     {
@@ -143,19 +144,19 @@ const MeetArtist = () => {
         data-aos="flip-up"
         className="  font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold"
       >
-        Official YumeArc Team Members
+        Official YumeArc <span className="gradient-text-gold">Verified</span> team members
       </h1>
       <p data-aos="fade-up" className='lg:text-lg text-base text-center mt-4 max-w-4xl'>
         These are the only official people working under YumeArc. If someone contacts you outside this list, please check with us through our official Discord or X before sharing project details or placing an order.
       </p>
       <div className="w-full grid sm:grid-cols-2 grid-cols-1 xl:gap-8 lg:gap-6 gap-4 mt-16 ">
-        {meetArtist.map((why, idx) => (
+        {meetArtist.filter(a => !a.hidden).map((why, idx) => (
           <div
             data-aos="zoom-in"
             key={idx}
             onMouseEnter={() => setIsActiveMore(idx)}
             onMouseLeave={() => setIsActiveMore(null)}
-            className="col-span-1  bg-purple-950 bg-opacity-10 backdrop-blur-sm row-span-1 rounded-xl flex items-center gap-y-6 px-8 py-6 transition-all gap-6"
+            className="col-span-1  bg-purple-950 bg-opacity-10 backdrop-blur-sm row-span-1 rounded-xl flex items-center gap-y-6 px-5 py-6 transition-all gap-6"
             style={{
               boxShadow:
                 isActive === idx
@@ -164,18 +165,33 @@ const MeetArtist = () => {
               transition: "all 0.3s ease-in-out",
             }}
           >
-            {/* <img src={why.icon} alt="" className='w-20' /> */}
             <div
-              className="w-20 h-20"
+              className="w-20 h-20 hidden"
               style={{
                 backgroundImage: `url(${why.icon})`,
                 backgroundSize: "cover",
                 backgroundPosition: "top",
               }}
             ></div>
-            <div className="flex flex-col lg:text-lg text-sm gap-y-2">
-              <h1 className="text-xl font-semibold font-merryWeater text-headingDark">
+            <div className="w-[84px] h-[84px] rounded-full shrink-0 p-[2px] flex items-center justify-center relative" style={{background: 'linear-gradient(90deg, #B8801A 0%, #D4A23A 35%, #F0C05A 60%, #C49520 100%)', boxShadow: '0 0 4px 1px rgba(212, 162, 58, 0.2)'}}>
+              <div className="w-full h-full rounded-full flex items-center justify-center text-2xl font-bold font-merryWeater text-white relative z-10" style={{background: 'radial-gradient(circle at 42% 38%, #30203A 0%, #291C33 22%, #21162B 48%, #181221 74%, #120C1A 100%)'}}>
+                {why.callit.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+              </div>
+              <span className="absolute" style={{top: '-1px', right: '12px', width: '16px', height: '16px', background: 'linear-gradient(135deg, #F0C05A, #FFE08A)', clipPath: 'polygon(50% 0%, 58% 42%, 100% 50%, 58% 58%, 50% 100%, 42% 58%, 0% 50%, 42% 42%)', filter: 'drop-shadow(0 0 10px rgba(240, 192, 90, 1)) drop-shadow(0 0 20px rgba(240, 192, 90, 0.9)) drop-shadow(0 0 35px rgba(240, 192, 90, 0.7)) drop-shadow(0 0 50px rgba(240, 192, 90, 0.4))'}}></span>
+              <span className="absolute" style={{bottom: '6px', right: '5px', width: '14px', height: '14px', zIndex: 100, background: 'linear-gradient(135deg, #D4A23A, #F0C05A)', clipPath: 'polygon(50% 0%, 58% 42%, 100% 50%, 58% 58%, 50% 100%, 42% 58%, 0% 50%, 42% 42%)', filter: 'drop-shadow(0 0 10px rgba(240, 192, 90, 1)) drop-shadow(0 0 20px rgba(240, 192, 90, 0.9)) drop-shadow(0 0 35px rgba(240, 192, 90, 0.7)) drop-shadow(0 0 50px rgba(240, 192, 90, 0.4))'}}></span>
+            </div>
+            <div className="w-full flex flex-col lg:text-lg text-sm gap-y-2">
+              <h1 className="text-xl font-semibold font-merryWeater text-headingDark flex items-center justify-between gap-2 flex-wrap">
                 {why.callit}
+                <span className="inline-flex items-center gap-1.5 text-sm font-bold shrink-0 px-2 py-0.5 border border-[#E8A32B] rounded-lg">
+                  <span className="inline-flex items-center gap-1 px-0 py-1 rounded-[7px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256" fill="none">
+                      <path d="M128 20 L196 44 C208 48 216 60 216 74 V122 C216 176 182 220 128 238 C74 220 40 176 40 122 V74 C40 60 48 48 60 44 Z" fill="#E8A32B" />
+                      <path d="M92 128 L116 152 L166 102" fill="none" stroke="#1A1A1A" strokeWidth="18" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span className="text-white tracking-wider" style={{fontSize: '12px'}}>Verified</span>
+                  </span>
+                </span>
               </h1>
 
               <h1 className="flex gap-x-4 items-center hover:text-purple-300">

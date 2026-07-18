@@ -36,8 +36,8 @@ const Testimonals = () => {
                     style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(250, 250, 250, 0.1)' : '0px 1px 3px 2px rgba(0, 0, 0, 0.1)' , transition: 'all 0.3s ease-in-out' }}
                     
                     className='  col-start-1 col-end-1 p-6 rounded-3xl bg-buttonPrimary'>
-                      <h1 className='font-merryWeater'>"{testimonal.review}"</h1>
-                      <p className='text-lg font-bold'><i>~{testimonal.client_name}</i></p>
+                      <h1 className='font-merryWeater'>{testimonal.review}</h1>
+                      <p className='font-merryWeater mt-2'>{testimonal.answer}</p>
                     </div>
                   ) : (
                     <div 
@@ -45,8 +45,8 @@ const Testimonals = () => {
                     style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(250, 250, 250, 0.1)' : '0px 1px 3px 2px rgba(0, 0, 0, 0.1)' , transition: 'all 0.3s ease-in-out' }}
                     
                     className='  col-start-2 col-end-2 p-6 rounded-3xl bg-buttonPrimary'>
-                      <h1 className='font-merryWeater'>"{testimonal.review}"</h1>
-                      <p className='text-lg font-bold'><i>~{testimonal.client_name}</i></p>
+                      <h1 className='font-merryWeater'>{testimonal.review}</h1>
+                      <p className='font-merryWeater mt-2'>{testimonal.answer}</p>
                     </div>
                   )}
                 </div>
@@ -60,8 +60,8 @@ const Testimonals = () => {
                   className='w-full   relative grid grid-cols-2   transition-all  bg-buttonPrimary' >
 
                   <div style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(0, 0, 0, 0.1)' : '0px 1px 3px 2px rgba(0, 0, 0, 0.1)' }} className='  col-span-2 p-6 rounded-md'>
-                      <h1 className='font-merryWeater'>"{testimonal.review}"</h1>
-                      <p className='text-lg font-bold'><i>~{testimonal.client_name}</i></p>
+                      <h1 className='font-merryWeater'>{testimonal.review}</h1>
+                      <p className='font-merryWeater mt-2'>{testimonal.answer}</p>
                     </div>
                 </div>
               ))}

@@ -92,7 +92,7 @@ const ArtScenes = () => {
       </p>
 
       <button onClick={() => setIsFormOpen(true)} className="px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md sm:hover:-translate-y-2">
-        View More Stream Visuals
+        Start a Project
       </button>
 
       <div className="w-full grid grid-cols-2 lg:grid-cols-3 xl:gap-8 lg:gap-6 gap-4 mt-6">
@@ -181,7 +181,7 @@ const ArtScenes = () => {
               Loading...
             </span>
           ) : (
-            showAll ? 'View Less' : 'View More'
+            showAll ? 'View Less Stream Visuals' : 'View More Stream Visuals'
           )}
         </button>
       </div>

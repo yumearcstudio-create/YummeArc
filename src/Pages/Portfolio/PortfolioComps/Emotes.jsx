@@ -183,7 +183,7 @@ const Emotes = () => {
                             Loading...
                         </span>
                     ) : (
-                        showAll ? 'View Less' : 'View More'
+                        showAll ? 'View Less Emotes & Badges' : 'View More Emotes & Badges'
                     )}
                 </button>
             </div>

@@ -17,3 +17,19 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.gradient-text-gold {
+  background: linear-gradient(90deg, #8E5202 0%, #BC7B14 35%, #E8A32B 60%, #9F6206 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  padding-right: 0.15em;
+  background-size: 110% 100%;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.5; filter: brightness(1); }
+  50% { opacity: 1; filter: brightness(1.5); }
+}
+

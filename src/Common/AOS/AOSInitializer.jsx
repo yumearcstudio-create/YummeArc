@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const AOSInitializer = ({ duration = 1000 , offset = 20, once =false , easing = 'ease-in-out' }) => {
+const AOSInitializer = ({ duration = 600 , offset = 50, once =true , easing = 'ease-out' }) => {
   useEffect(() => {
     AOS.init({
       duration ,

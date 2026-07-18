@@ -16,7 +16,11 @@ const CTA = ({heading , para , cta1 ,ctaLink1 , cta2 ,ctaLink2 }) => {
                 </p>
 
                 <div data-aos="fade-up" className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg pt-6 '>
-                    <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 bg-buttonPrimary  text-headingDark font-bold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md '>{cta1}</button>
+                    {ctaLink1 ? (
+                      <a href={ctaLink1} target="_blank" rel="noopener noreferrer" className=' px-8 py-2 bg-buttonPrimary  text-headingDark font-bold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md no-underline'>{cta1}</a>
+                    ) : (
+                      <button onClick={() => setIsFormOpen(true)} className=' px-8 py-2 bg-buttonPrimary  text-headingDark font-bold cursor-pointer transition-all duration-300  bg-blushPink text-center rounded-md '>{cta1}</button>
+                    )}
                     {cta2 && (<button onClick={() => setIsFormOpen(true)}  className=' px-8 py-2  font-bold cursor-pointer transition-all duration-300 border-2   text-center rounded-md '>{cta2}</button>)}
                 </div>
 
