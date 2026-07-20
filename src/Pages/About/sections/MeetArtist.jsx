@@ -15,7 +15,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "MIDNIGHT KENSHI",
+      callit: "Midnight Kenshi",
       twitter: "https://x.com/Midnight_Kenshi",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "midnightkenshi",
@@ -31,7 +31,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Raven Arc ",
+      callit: "Raven Arc",
       twitter: "https://x.com/TheRavenArc",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "itsravenarc",
@@ -39,7 +39,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Emma smith",
+      callit: "Emma Smith",
       twitter: "https://x.com/emmasmith100?s=21",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "emmasmith_",
@@ -47,7 +47,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "EMILY JOHNSON:",
+      callit: "Emily Johnson",
       twitter: "https://x.com/Emily_Johnson55",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "emily_johnson55",
@@ -55,7 +55,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "ANGELA WRIGHT",
+      callit: "Angela Wright",
       twitter: "https://x.com/Angela_Wright56",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "angela_wright56",
@@ -63,7 +63,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "MIMI NOCTELLE",
+      callit: "Mimi Noctelle",
       twitter: "https://x.com/noctellemimi",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "mimi_noctelle",
@@ -71,7 +71,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "STARRY MUSE",
+      callit: "Starry Muse",
       twitter: "https://x.com/Hey_StarryMuse",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "heystarry",
@@ -79,7 +79,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "USA LUMINA ",
+      callit: "Usa Lumina",
       twitter: "https://x.com/Usa_Lumina4",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "usa_lumina4",
@@ -87,7 +87,7 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "SOPHIA BLADE",
+      callit: "Sophia Blade",
       twitter: "https://x.com/sophia_blade1",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "sophia_blade1",

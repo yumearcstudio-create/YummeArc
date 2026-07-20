@@ -6,7 +6,7 @@ import { WiStars } from "react-icons/wi";
 
 //imports of recent models
 
-import model_1 from '../Assets/Images/HomeImages/halo-angel-model.png'
+import model_1 from '../Assets/Images/HomeImages/angel-model.png'
 import model_2 from '../Assets/Images/HomeImages/orange-fox-chibi.png'
 import model_3 from '../Assets/Images/HomeImages/steampunk-panel-set.png'
 import model_4 from '../Assets/Images/HomeImages/go-happy-hyped-emotes.png'
@@ -67,7 +67,7 @@ export const weCreate =[
 ]
 
 export const recentModels =[
-    {name : "Halo Angel Model" , description : "A soft angel-inspired Live2D model with gentle colors, clean outfit details, and a friendly design made to feel memorable across stream and socials." , model : 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770743219/angel_enff3b.webp'},
+    {name : "Halo Angel Model" , description : "A soft angel-inspired Live2D model with gentle colors, clean outfit details, and a friendly design made to feel memorable across stream and socials." , model : model_1},
     
     {name : "Orange Fox Chibi" , description : "A cute fox-inspired chibi model with bright colors, playful expressions, and smooth movement made for stream reactions and personality moments." , model : 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png'},
 

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import chibiImg from '../../../Assets/Images/ServiceImages/chibi-panels.png'
 
 
 const Chibbi = () => {
@@ -21,7 +22,7 @@ const Chibbi = () => {
                 to-transparent' />
 
             <div data-aos="fade-top" className='w-[350px] md:w-[500px] mx-auto 3xl:h-[26rem] h-[30rem]  order-2 lg:order-1 
-            ' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813003/sec3_chibiPanels_byj50o.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            ' style={{ backgroundImage: `url(${chibiImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem] 
             order-1 lg:order-2'>
 

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import angelModel from '../../../Assets/Images/HomeImages/angel-model.png'
 
 
 const Custom = () => {
@@ -20,7 +21,7 @@ const Custom = () => {
                 to-transparent' />
 
             
-            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem] order-2 lg:order-1' style={{ backgroundImage: `url('https://res.cloudinary.com/dqflexfdy/image/upload/v1754813049/sec1_model2d_lj1weg.png')`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem] order-2 lg:order-1' style={{ backgroundImage: `url(${angelModel})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
             <div className='col-span-1   text-left  flex flex-col  gap-y-6 sm:px-16 px-4 order-1 lg:order-2'>
 

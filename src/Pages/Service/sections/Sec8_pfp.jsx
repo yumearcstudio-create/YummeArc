@@ -4,6 +4,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import pfpImg from '../../../Assets/Images/ServiceImages/pfp-design.png'
 
 
 const Sec8_pfp = () => {
@@ -22,7 +23,7 @@ const Sec8_pfp = () => {
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 
-            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   order-2 lg:order-1' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813039/sec8_pfp_tzhzpn.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   order-2 lg:order-1' style={{ backgroundImage: `url(${pfpImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem] 
             order-1 lg:order-2'>
 

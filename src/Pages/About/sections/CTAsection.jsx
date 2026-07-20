@@ -6,7 +6,7 @@ import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 const CTAsection = () => {
   const {setIsFormOpen} = useContext(ContextAPI)
   return (
-    <section className='w-full bg-primaryDark text-headingDark   px-4 sm:px-12 xl:px-64  2xl:px-80  py-10 flex flex-col justify-start items-center relative  gap-y-10'>
+    <section className='w-full bg-primaryDark text-headingDark px-4 sm:px-12 xl:px-64 2xl:px-80 pt-24 pb-16 flex flex-col justify-start items-center relative gap-y-10'>
             <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 
@@ -15,7 +15,7 @@ const CTAsection = () => {
             <h1 data-aos="flip-up" className=' font-kaushans   lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
                 Ready to shape your character with us?
             </h1>
-            <p data-aos="fade-up" className='lg:text-xl text-lg text-center mt-6'>
+            <p data-aos="fade-up" className='lg:text-xl text-lg text-center'>
                 Bring the lore, references, messy ideas, or just the feeling you want your character to have. We&rsquo;ll help turn it into visuals that feel connected, personal, and ready for stream.
 
 

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import custom3dImg from '../../../Assets/Images/ServiceImages/custom-3d-model.png'
 
 
 const Custom3D = () => {
@@ -57,7 +58,7 @@ const Custom3D = () => {
             </div>
 
 
-            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   ' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813076/sec2_model3d_ovibre.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='col-span-1 3xl:h-[26rem] h-[30rem]   ' style={{ backgroundImage: `url(${custom3dImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
         </div>
 

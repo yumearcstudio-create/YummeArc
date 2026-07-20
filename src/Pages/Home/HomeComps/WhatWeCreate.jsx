@@ -28,8 +28,8 @@ const WhatWeCreate = () => {
 
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-primaryDark
                 to-transparent' />
-            <h1 data-aos="flip-up" className='w-full text-left  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]   font-kaushans text-headingDark mt-20'>Everything your VTuber identity needs</h1>
-            <p data-aos="fade-up" className='w-full text-left text-lg'>From your model to your stream visuals, we design assets that feel connected to your character and community.</p>
+            <h1 data-aos="flip-up" className='w-full text-center font-[600] lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] font-kaushans text-headingDark mt-20'>Everything your VTuber identity needs</h1>
+            <p data-aos="fade-up" className='w-full text-center text-lg'>From your model to your stream visuals, we design assets that feel connected to your character and community.</p>
             <div className='w-full grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:gap-8 lg:gap-6 gap-4'>
                 {weCreate.map((model, idx) => (
                     <div data-aos-duration="200" data-aos="flip-right" key={idx} onMouseEnter={() => handleActive(idx)} onMouseLeave={() => handleActive(null)}

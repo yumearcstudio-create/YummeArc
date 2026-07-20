@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import emotesImg from '../../../Assets/Images/ServiceImages/emotes-badges.png'
 
 
 const Sec9_emote = () => {
@@ -60,7 +61,7 @@ const Sec9_emote = () => {
             </div>
 
 
-            <div data-aos="fade-top" className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px]   3xl:h-[26rem] h-[30rem]  mx-auto' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813042/sec9_emote_mkk04f.png")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px]   3xl:h-[26rem] h-[30rem]  mx-auto' style={{ backgroundImage: `url(${emotesImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
         </div>
 

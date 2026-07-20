@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# client material folders
+yummearc-material/
+yummearc-material-client-modifications/
+yummearc-material-client-modifications-2/

@@ -10,7 +10,7 @@ const Hero = () => {
 
             <img loading='lazy' data-aos="fade-up" src={'https://res.cloudinary.com/dqflexfdy/image/upload/v1770210253/services-hero-webp_yiunzi.webp'} alt="" className='max-[991px]:block min-[992px]:hidden w-[400px] mt-6' />
 
-            <div className='w-full flex max-[991px]:flex-col min-[992px]:flex-row justify-between items-center gap-10 mt-6'>
+            <div className='w-full max-w-[1200px] flex max-[991px]:flex-col min-[992px]:flex-row justify-between items-center gap-10 mt-6'>
                 <div className='flex-1 flex flex-col'>
                     <h1 data-aos="flip-up" className='lg:text-5xl sm:text-4xl text-2xl leading-[1.1] w-full text-left font-bold mb-4'>
                         Services built around your character, not just your order.

@@ -27,9 +27,8 @@ const OurProcess = () => {
             {/* shading circle yaha sai khatam bus ok  */}
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent ' />
-            <h1 className='w-full text-left z-20  font-[600]  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark font-kaushans'>How we start your project</h1>
-            <p data-aos="fade-up" className='text-left lg:text-lg text-sm w-full my-6  '>You don't need everything perfectly planned before reaching out. Send what you have, and we'll help shape the direction from there.
-            </p>
+            <h1 className='w-full text-center z-20 font-[600] lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark font-kaushans'>How we start your project</h1>
+            <p data-aos="fade-up" className='text-center w-full lg:text-lg text-sm my-6'>You don't need everything perfectly planned before reaching out. Send what you have, and we'll help shape the direction from there.</p>
 
             <div className='w-full grid  lg:grid-cols-2 grid-cols-1 gap-8 mt-6'>
                 {process.map((process, idx) => (

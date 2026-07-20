@@ -10,6 +10,8 @@ import elowenPetalweave from '../../../Assets/Images/portfolio/2d & 3D Models/el
 import kairoPawsley from '../../../Assets/Images/portfolio/2d & 3D Models/kairo-pawsley-2d-model.png'
 import nerissaTidefang from '../../../Assets/Images/portfolio/2d & 3D Models/nerissa-tidefang-2d-model.png'
 import rivenRedtail from '../../../Assets/Images/portfolio/2d & 3D Models/riven-redtail-pngtuber-mouth-open.png'
+import heroAstro from '../../../Assets/Images/HomeImages/hero-astro.png'
+import angelModel from '../../../Assets/Images/HomeImages/angel-model.png'
 
 
 
@@ -33,8 +35,8 @@ const Speak = () => {
 
 
     const speaker = [
-         { callit: "Aureon Halo 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770743219/angel_enff3b.webp' },
-        { callit: "Solarius Sage 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1770210109/model_2_webp_aoxvoc.webp' },
+         { callit: "Aureon Halo 2D Model", icon: angelModel },
+        { callit: "Solarius Sage 2D Model", icon: heroAstro },
         { callit: "Infernia 2D Chibi Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png' },
         { callit: "Suki Kurohana 2D Model", icon: sukiKurohana },
         { callit: "Rowan Wolfhart 2D Model", icon: rowanWolfhart },

@@ -8,7 +8,7 @@ const Sec7_art2d = () => {
         const {setIsFormOpen} = useContext(ContextAPI)
     
     return (
-        <div className='w-full px-4  sm:px-20 xl:px-28 3xl:px-80 z-30 grid lg:grid-cols-2 grid-cols-1 sm:gap-10    text-textDark bg-secondaryDark relative py-10 justify-center items-center'>
+        <div className='w-full px-4  sm:px-20 xl:px-28 3xl:px-80 z-30 grid lg:grid-cols-2 grid-cols-1 sm:gap-10    text-textDark bg-secondaryDark relative pt-14 pb-10 justify-center items-center'>
             <AOSInitializer />
             {/* shading circle hai na idher sai start  */}
             <ShadePurple className={'-right-20 top-20 bg-gradient-to-r w-72 h-72 opacity-20'} />
@@ -60,7 +60,9 @@ const Sec7_art2d = () => {
             </div>
 
 
-            <div data-aos="fade-top" className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px] 3xl:h-[26rem] h-[30rem]  mx-auto' style={{ backgroundImage: `url("https://res.cloudinary.com/dqflexfdy/image/upload/v1754813034/sec7_artseen_scauho.jpg")`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <video data-aos="fade-top" autoPlay loop muted playsInline className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px] 3xl:h-[26rem] h-[30rem] mx-auto object-contain'>
+                <source src="/stream-screens.mp4" type="video/mp4" />
+            </video>
 
         </div>
 

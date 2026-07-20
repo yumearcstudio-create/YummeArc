@@ -16,11 +16,10 @@ const Testimonals = () => {
          py-10 bg-secondaryDark text-textDark'>
       <AOSInitializer />
 
-      <h1 data-aos="flip-up" className=' font-[600] font-kaushans  lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1]  text-headingDark'>
+      <h1 data-aos="flip-up" className='w-full text-center font-[600] font-kaushans lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] text-headingDark'>
         What creators usually come to us with
       </h1>
-      <p data-aos="fade-up" className='font-merryWeater lg:text-lg text-sm w-full my-6  '>Most ideas don&rsquo;t start perfectly clear. That&rsquo;s normal. We help turn scattered lore, references, and stream goals into visuals that feel connected.
-      </p>
+      <p data-aos="fade-up" className='w-full text-center font-merryWeater lg:text-lg text-sm my-6'>Most ideas don&rsquo;t start perfectly clear. That&rsquo;s normal. We help turn scattered lore, references, and stream goals into visuals that feel connected.</p>
 
       <div className='w-full flex flex-col  gap-8 mt-6 text-headingDark'>
         <>
