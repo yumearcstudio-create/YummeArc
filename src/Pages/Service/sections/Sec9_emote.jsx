@@ -61,7 +61,7 @@ const Sec9_emote = () => {
             </div>
 
 
-            <div data-aos="fade-top" className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px]   3xl:h-[26rem] h-[30rem]  mx-auto' style={{ backgroundImage: `url(${emotesImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='2xl:w-[500px] md:w-[400px] sm:w-[350px] w-[280px] 3xl:h-[20rem] h-[24rem] mx-auto' style={{ backgroundImage: `url(${emotesImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
         </div>
 

@@ -23,7 +23,7 @@ const ArtScenes = () => {
     { callit: 'Black-Hat VTuber Model', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805774/8_onxfso.mp4' },
     { callit: 'SorryChris Cyber Lab Entrance Animation', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805759/9_khcdt4.mp4' },
     { callit: 'Birthday Gaming Setup Animation', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805767/10_xbxgys.mp4' },
-    { callit: 'TacoByte Studio', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805756/11_to9kqj.mov' },
+    { callit: 'TacoByte Studio', icon: '/tacobyte-studio.mp4' },
   ];
 
   // helper -> detect if a url is a video by extension
@@ -214,7 +214,7 @@ const ArtScenes = () => {
             {isVideo(showModalSrc) ? (
               <video
                 src={showModalSrc}
-                className="max-w-full max-h-[80vh] object-contain"
+                className="sm:max-w-[800px] max-w-[90vw] max-h-[80vh] object-contain w-full"
                 controls
                 autoPlay
                 muted={false}
@@ -225,7 +225,7 @@ const ArtScenes = () => {
               <img
                 src={showModalSrc}
                 alt="viewer"
-                className="max-w-full max-h-[80vh] object-contain"
+                className="sm:max-w-[800px] max-w-[90vw] max-h-[80vh] object-contain"
               />
             )}
           </div>

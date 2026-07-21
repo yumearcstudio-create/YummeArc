@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
-import whyYmmearc from '../../../Assets/Images/HomeImages/heartChar.png'
+import whyYmmearc from '../../../Assets/Images/HomeImages/figuring-out-character.png'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 
