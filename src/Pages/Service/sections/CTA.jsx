@@ -4,7 +4,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
-import lavaImg from '../../../Assets/Images/ServiceImages/lava-support.png'
+import lavaImg from '../../../Assets/Images/ServiceImages/still-figuring-out-your-character-direction.png'
 
 
 const CTA = () => {

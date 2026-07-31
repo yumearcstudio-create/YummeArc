@@ -7,7 +7,7 @@ import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 const HeroSection = () => {
     const { setIsFormOpen } = useContext(ContextAPI)
     return (
-        <div className='w-full bg-secondaryDark text-headingDark pb-20  px-4  sm:px-20 xl:px-28 3xl:px-80  pt-40 flex flex-col justify-center items-center relative sm:min-h-screen'>
+        <div className='w-full bg-secondaryDark text-headingDark pb-10  px-4  sm:px-20 xl:px-28 3xl:px-80  pt-40 flex flex-col justify-center items-center relative'>
             <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-primaryDark
                 to-transparent' />
             <AOSInitializer />

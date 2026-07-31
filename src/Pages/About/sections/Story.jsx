@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Story = () => {
   return (
-    <section className='w-full bg-primaryDark text-headingDark sm:pb-20  px-4 sm:px-12 xl:px-64  2xl:px-80   xl:pt-40 sm:py-0 py-6 flex flex-col justify-center items-center relative min-h-screen gap-y-10'>
+    <section className='w-full bg-primaryDark text-headingDark pt-12 pb-6 px-4 sm:px-12 xl:px-64  2xl:px-80 flex flex-col justify-center items-center relative gap-y-8'>
       <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 

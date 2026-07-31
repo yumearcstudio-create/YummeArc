@@ -21,7 +21,7 @@ const Sec11_intro = () => {
             <span className='w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-secondaryDark
                 to-transparent' />
 
-            <div data-aos="fade-top" className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px] 3xl:h-[26rem] h-[30rem] mx-auto order-2 lg:order-1' style={{ backgroundImage: `url(${introImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
+            <div data-aos="fade-top" className='2xl:w-[760px] md:w-[660px] sm:w-[560px] w-[390px] 3xl:h-[28rem] h-[32rem] mx-auto order-2 lg:order-1' style={{ backgroundImage: `url(${introImg})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} />
 
             <div className='col-span-1  justify-center text-left  flex flex-col  gap-y-6 sm:px-16 px-4 min-h-[24rem] order-1 lg:order-2'>
 
