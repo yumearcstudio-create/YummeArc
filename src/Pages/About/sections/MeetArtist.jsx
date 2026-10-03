@@ -16,7 +16,7 @@ const MeetArtist = () => {
 
     {
       callit: "Emma Smith",
-      twitter: "https://x.com/emmasmith100?s=21",
+      twitter: "https://x.com/EmmasmithVT",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "emmasmith_",
       icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825323/5_rl8xka.png",
