@@ -6,6 +6,10 @@ import title3 from '../../../Assets/Images/portfolio/stream-identity/title-3.jpe
 import title4 from '../../../Assets/Images/portfolio/stream-identity/title-4.jpeg'
 import title5 from '../../../Assets/Images/portfolio/stream-identity/title-5.jpeg'
 import title6 from '../../../Assets/Images/portfolio/stream-identity/title-6.jpeg'
+import lumiDragonChibiPanels from '../../../Assets/Images/portfolio/stream-identity/lumi-dragon-chibi-panels.png'
+import sakurielLorekeeperChibiPfp from '../../../Assets/Images/portfolio/stream-identity/sakuriel-lorekeeper-chibi-pfp.jpeg'
+import errorToEntity10BadgeSet from '../../../Assets/Images/portfolio/stream-identity/error-to-entity-10-badge-set.png'
+import furry13PieceEmoteSet from '../../../Assets/Images/portfolio/stream-identity/furry-13-piece-emote-set.png'
 
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 
@@ -21,7 +25,11 @@ const Stream = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const stream = [
-        { callit: "Gearlight 2D Chibi Panel Set", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280984/13_fffmyv.jpg' },
+        { callit: "Error to Entity: 10 Badge Set", icon: errorToEntity10BadgeSet },
+        { callit: "Furry 13 piece emote set", icon: furry13PieceEmoteSet },
+        { callit: "Sakuriel Lorekeeper Chibi PFP", icon: sakurielLorekeeperChibiPfp, align: 'center' },
+        { callit: "Lumi Dragon Chibi Panels", icon: lumiDragonChibiPanels },
+        { callit: "Gearlight 2D Chibi Panel Set", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280984/13_fffmyv.jpg' },
         { callit: "Inferno Fox Chibi Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280985/14_ztxfd0.jpg' },
         { callit: "Starry Catboy Twitch Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1763280985/15_njyxj7.jpg' },
         { callit: "ChibiFox Twitch Panels", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754747083/1_be1m7v.jpg' },
@@ -86,7 +94,7 @@ const Stream = () => {
                         style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(250, 250, 250, 0.1)' : '0px 1px 3px 2px #2C2839', transition: 'all 0.3s ease-in-out' }}>
                         {/* <img onClick={() => handleShowImage(idx)} src={stream.icon} alt="" className='w-full md:min-h-80' /> */}
                         <div onClick={() => handleShowImage(idx)} className="w-full  min-h-64 relative bg-gradient-to-t from-purpleText/30 to-purpleText">
-                            <div className='w-full h-full ' style={{ backgroundImage: `url(${stream.icon})`, backgroundSize: 'cover', backgroundPosition: 'top' }}></div>
+                            <div className='w-full h-full ' style={{ backgroundImage: `url(${stream.icon})`, backgroundSize: 'cover', backgroundPosition: stream.align === 'center' ? 'center' : 'top' }}></div>
 
                         </div>
 

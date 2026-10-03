@@ -4,6 +4,7 @@ import Loader from '../../components/Loader';
 import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 
 const Hero = lazy(() => import('./HomeComps/Hero'));
+const VerifyArtistNotice = lazy(() => import('./HomeComps/VerifyArtistNotice'));
 const WhyYummearc = lazy(() => import('./HomeComps/WhyYummearc'));
 const RecentWork = lazy(() => import('./HomeComps/RecentWork'));
 const OurProcess = lazy(() => import('./HomeComps/OurProcess'));
@@ -64,6 +65,7 @@ const Home = () => {
       <Suspense fallback={<Loader text="Loading section..." />}>
         <CommissionForm />
         <Hero />
+        <VerifyArtistNotice />
         <WhyYummearc />
         <WhatWeCreate />
         <RecentWork />

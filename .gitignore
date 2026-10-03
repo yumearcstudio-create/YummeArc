@@ -26,3 +26,9 @@ yarn-error.log*
 yummearc-material/
 yummearc-material-client-modifications/
 yummearc-material-client-modifications-2/
+yummearc-material-client-modifications-3/
+yummearc-material-client-modifications-4/
+
+# local dev server logs
+dev-server.log
+dev-server.err.log

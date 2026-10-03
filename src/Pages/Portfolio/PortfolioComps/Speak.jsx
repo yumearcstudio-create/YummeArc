@@ -10,6 +10,7 @@ import elowenPetalweave from '../../../Assets/Images/portfolio/2d & 3D Models/el
 import kairoPawsley from '../../../Assets/Images/portfolio/2d & 3D Models/kairo-pawsley-2d-model.png'
 import nerissaTidefang from '../../../Assets/Images/portfolio/2d & 3D Models/nerissa-tidefang-2d-model.png'
 import rivenRedtail from '../../../Assets/Images/portfolio/2d & 3D Models/riven-redtail-pngtuber-mouth-open.png'
+import lunariBlue from '../../../Assets/Images/portfolio/2d & 3D Models/lunari-blue-pngtuber.png'
 import heroAstro from '../../../Assets/Images/HomeImages/hero-astro.png'
 import angelModel from '../../../Assets/Images/HomeImages/angel-model.png'
 
@@ -35,6 +36,7 @@ const Speak = () => {
 
 
     const speaker = [
+        { callit: "Lunari Blue PNGTuber", icon: lunariBlue, fit: 'contain' },
          { callit: "Aureon Halo 2D Model", icon: angelModel },
         { callit: "Solarius Sage 2D Model", icon: heroAstro },
         { callit: "Infernia 2D Chibi Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754745969/F1_zdxgvb.png' },
@@ -106,7 +108,7 @@ const Speak = () => {
                         style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(250, 250, 250, 0.1)' : '0px 1px 3px 2px #2C2839', transition: 'all 0.3s ease-in-out' }}>
                         {/* <img onClick={() => handleShowImage(idx)} src={speaker.icon} alt="" className='w-full md:min-h-80' /> */}
                         <div onClick={() => handleShowImage(idx)} className="w-full  min-h-64 relative bg-gradient-to-t from-purpleText/30 to-purpleText">
-                            <div className='w-full h-full ' style={{ backgroundImage: `url(${speaker.icon})`, backgroundSize: 'cover', backgroundPosition: 'top' }}></div>
+                            <div className='absolute inset-0 ' style={{ backgroundImage: `url(${speaker.icon})`, backgroundSize: speaker.fit === 'contain' ? 'contain' : 'cover', backgroundRepeat: speaker.fit === 'contain' ? 'no-repeat' : 'repeat', backgroundPosition: 'top' }}></div>
                         </div>
 
                         <h1 className=' lg:text-lg text-sm  sm:p-4 p-2 text-center'>{speaker.callit}</h1>

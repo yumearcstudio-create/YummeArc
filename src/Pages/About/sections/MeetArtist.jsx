@@ -15,11 +15,19 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Midnight Kenshi",
-      twitter: "https://x.com/Midnight_Kenshi",
+      callit: "Emma Smith",
+      twitter: "https://x.com/emmasmith100?s=21",
       twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "midnightkenshi",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825302/2_joep1t.png",
+      discord: "emmasmith_",
+      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825323/5_rl8xka.png",
+    },
+
+    {
+      callit: "Sleepy Lumina",
+      twitter: "https://x.com/Sleepy_lumina",
+      twitch: "https://www.twitch.tv/celestialpaisley",
+      discord: "sleepy_lumina",
+      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825380/10_qqntrd.png",
     },
 
     {
@@ -31,19 +39,19 @@ const MeetArtist = () => {
     },
 
     {
+      callit: "Midnight Kenshi",
+      twitter: "https://x.com/Midnight_Kenshi",
+      twitch: "https://www.twitch.tv/celestialpaisley",
+      discord: "midnightkenshi",
+      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825302/2_joep1t.png",
+    },
+
+    {
       callit: "Raven Arc",
       twitter: "https://x.com/TheRavenArc",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "itsravenarc",
       icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825310/4_khf95f.png",
-    },
-
-    {
-      callit: "Emma Smith",
-      twitter: "https://x.com/emmasmith100?s=21",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "emmasmith_",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825323/5_rl8xka.png",
     },
 
     {
@@ -76,14 +84,6 @@ const MeetArtist = () => {
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "heystarry",
       icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825363/9_uymfua.png",
-    },
-
-    {
-      callit: "Usa Lumina",
-      twitter: "https://x.com/Usa_Lumina4",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "usa_lumina4",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825380/10_qqntrd.png",
     },
 
     {
@@ -134,7 +134,7 @@ const MeetArtist = () => {
   const visibleArtists = showAll ? meetArtist : meetArtist.slice(0, 6);
 
   return (
-    <section className="w-full bg-secondaryDark text-headingDark pb-20  px-4 sm:px-12 xl:px-64  2xl:px-80  xl:pt-20 flex flex-col justify-center items-center relative min-h-screen">
+    <section id="verified-artists" className="w-full bg-secondaryDark text-headingDark pb-20  px-4 sm:px-12 xl:px-64  2xl:px-80  xl:pt-20 flex flex-col justify-center items-center relative min-h-screen">
       <span
         className="w-full h-1/5 absolute bottom-0 z-0 right-0 bg-gradient-to-t from-primaryDark
                 to-transparent"

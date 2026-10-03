@@ -18,7 +18,22 @@ const About = () => {
   const { loading, setLoading } = useContext(ContextAPI);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (!window.location.hash) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const id = window.location.hash.replace('#', '');
+      let attempts = 0;
+      const tryScroll = () => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else if (attempts < 20) {
+          attempts++;
+          setTimeout(tryScroll, 150);
+        }
+      };
+      tryScroll();
+    }
 
     const images = document.images;
     let loadedCount = 0;
