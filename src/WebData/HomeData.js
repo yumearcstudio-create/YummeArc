@@ -6,7 +6,7 @@ import { WiStars } from "react-icons/wi";
 
 //imports of recent models
 
-import model_1 from '../Assets/Images/HomeImages/angel-model.png'
+import model_1 from '../Assets/Images/HomeImages/angel-model.webp'
 import model_2 from '../Assets/Images/HomeImages/orange-fox-chibi.png'
 import model_3 from '../Assets/Images/HomeImages/steampunk-panel-set.png'
 import model_4 from '../Assets/Images/HomeImages/go-happy-hyped-emotes.png'

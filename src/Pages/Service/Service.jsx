@@ -1,9 +1,7 @@
-import React, { Suspense, useContext, useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import MainNav from '../../Common/Navbar/MainNav';
 import Footer from '../../Common/Footer/Footer';
-import Loader from '../../components/Loader';
 import CommissionForm from '../../Common/ComissionForm';
-import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 
 // ✅ Lazy load sections
 const Hero = React.lazy(() => import('./sections/Hero'));
@@ -21,44 +19,55 @@ const FAQs = React.lazy(() => import('./sections/FAQs'));
 const CTA = React.lazy(() => import('./sections/CTA'));
 
 const Service = () => {
-  const { loading, setLoading } = useContext(ContextAPI);
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    // Keep loader for a short time before rendering sections
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1200);
-
-    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className="w-full font-inter overflow-x-hidden">
-      {loading && <Loader text={"Services"} />}
-
       <MainNav />
       <CommissionForm />
 
       {/* ✅ Suspense wrapper for lazy loaded sections */}
-      <Suspense fallback={<Loader text="Loading Section..." />}>
+      <Suspense fallback={null}>
         <Hero />
+      </Suspense>
+      <Suspense fallback={null}>
         <Custom />
+      </Suspense>
+      <Suspense fallback={null}>
         <Custom3D />
+      </Suspense>
+      <Suspense fallback={null}>
         <Chibbi />
-        <div className='hidden'>
+      </Suspense>
+      <div className='hidden'>
+        <Suspense fallback={null}>
           <Sec5_vtuber />
-        </div>
-        {/* <Sec6_lorebased /> */}
+        </Suspense>
+      </div>
+      {/* <Sec6_lorebased /> */}
+      <Suspense fallback={null}>
         <Sec7_art2d />
+      </Suspense>
+      <Suspense fallback={null}>
         <Sec8_pfp />
+      </Suspense>
+      <Suspense fallback={null}>
         <Sec9_emote />
-        <div className='hidden'>
+      </Suspense>
+      <div className='hidden'>
+        <Suspense fallback={null}>
           <Sec10_overlay />
-        </div>
+        </Suspense>
+      </div>
+      <Suspense fallback={null}>
         <Sec11_intro />
+      </Suspense>
+      <Suspense fallback={null}>
         <FAQs />
+      </Suspense>
+      <Suspense fallback={null}>
         <CTA />
       </Suspense>
 

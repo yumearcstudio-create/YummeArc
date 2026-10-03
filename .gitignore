@@ -22,6 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# local planning docs (never pushed)
+n1-portfolio-performance-plan.md
+
 # client material folders
 yummearc-material/
 yummearc-material-client-modifications/

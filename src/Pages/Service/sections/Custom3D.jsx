@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
-import custom3dImg from '../../../Assets/Images/ServiceImages/custom-3d-model.png'
+import custom3dImg from '../../../Assets/Images/portfolio/2d & 3D Models/lunara-bloomstaff-3d-model.webp'
 
 
 const Custom3D = () => {

@@ -1,11 +1,9 @@
-import React, { useContext, useEffect, lazy, Suspense } from 'react';
-import Loader from '../../components/Loader';
-import { ContextAPI } from '../../GlobalProvider/ContextAPI.jsx';
+import React, { useEffect, lazy, Suspense } from 'react';
+import MainNav from '../../Common/Navbar/MainNav';
+import Footer from '../../Common/Footer/Footer';
 
 
 // Lazy load components
-const MainNav = lazy(() => import('../../Common/Navbar/MainNav'));
-const Footer = lazy(() => import('../../Common/Footer/Footer'));
 const HeroSection = lazy(() => import('./sections/HeroSection'));
 const Story = lazy(() => import('./sections/Story'));
 const MeetArtist = lazy(() => import('./sections/MeetArtist'));
@@ -15,8 +13,6 @@ const CTAsection = lazy(() => import('./sections/CTAsection'));
 const ComissionForm = lazy(() => import('../../Common/ComissionForm.jsx'));
 
 const About = () => {
-  const { loading, setLoading } = useContext(ContextAPI);
-
   useEffect(() => {
     if (!window.location.hash) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -34,58 +30,33 @@ const About = () => {
       };
       tryScroll();
     }
-
-    const images = document.images;
-    let loadedCount = 0;
-
-    if (images.length === 0) {
-      setLoading(false);
-      return;
-    }
-
-    const handleImageLoad = () => {
-      loadedCount++;
-      if (loadedCount === images.length) {
-        setLoading(false);
-      }
-    };
-
-    for (let img of images) {
-      if (img.complete) {
-        loadedCount++;
-      } else {
-        img.addEventListener('load', handleImageLoad);
-        img.addEventListener('error', handleImageLoad);
-      }
-    }
-
-    if (loadedCount === images.length) {
-      setLoading(false);
-    }
-
-    return () => {
-      for (let img of images) {
-        img.removeEventListener('load', handleImageLoad);
-        img.removeEventListener('error', handleImageLoad);
-      }
-    };
   }, []);
 
   return (
     <div className="w-full font-inter overflow-x-hidden">
-      {loading && <Loader text={"About Page"} />}
-
-      <Suspense fallback={<Loader text="Loading About Page..." />}>
-        <MainNav />
+      <MainNav />
+      <Suspense fallback={null}>
         <ComissionForm />
-        <HeroSection />
-        <Story />
-        <MeetArtist />
-        <Mission />
-        <CreativeProcess />
-        <CTAsection />
-        <Footer />
       </Suspense>
+      <Suspense fallback={null}>
+        <HeroSection />
+      </Suspense>
+      <Suspense fallback={null}>
+        <Story />
+      </Suspense>
+      <Suspense fallback={null}>
+        <MeetArtist />
+      </Suspense>
+      <Suspense fallback={null}>
+        <Mission />
+      </Suspense>
+      <Suspense fallback={null}>
+        <CreativeProcess />
+      </Suspense>
+      <Suspense fallback={null}>
+        <CTAsection />
+      </Suspense>
+      <Footer />
     </div>
   );
 };

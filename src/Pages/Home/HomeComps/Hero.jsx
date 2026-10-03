@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import heroImg from '../../../Assets/Images/HomeImages/hero-astro.png'
+import heroImg from '../../../Assets/Images/HomeImages/hero-astro.webp'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import { FaArrowDown } from 'react-icons/fa'
 import ShadePurple from '../../../Common/ShadePurple'

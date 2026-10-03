@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
+import cinematicVideo from '../../../Assets/Videos/cinematic-stream-intro.mp4'
 
 
 const Sec7_art2d = () => {
@@ -61,7 +62,7 @@ const Sec7_art2d = () => {
 
 
             <video data-aos="fade-top" autoPlay loop muted playsInline className='2xl:w-[700px] md:w-[600px] sm:w-[500px] w-[350px] 3xl:h-[26rem] h-[30rem] mx-auto object-contain'>
-                <source src="/stream-screens.mp4" type="video/mp4" />
+                <source src={cinematicVideo} type="video/mp4" />
             </video>
 
         </div>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 import ShadePurple from '../../../Common/ShadePurple'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
-import angelModel from '../../../Assets/Images/HomeImages/angel-model.png'
+import angelModel from '../../../Assets/Images/HomeImages/angel-model.webp'
 
 
 const Custom = () => {

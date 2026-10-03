@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
-import heroImg from '../../../Assets/Images/portfolio/every-piece-starts-with-a-character.png'
+import heroImg from '../../../Assets/Images/portfolio/every-piece-starts-with-a-character.webp'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 
 const Hero = () => {

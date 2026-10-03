@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import AOSInitializer from '../../../Common/AOS/AOSInitializer';
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI';
 import { RxCross1 } from 'react-icons/rx'; // optional close icon
+import cinematicVideo from '../../../Assets/Videos/cinematic-stream-intro.mp4';
 
 const ArtScenes = () => {
   const {setIsFormOpen} = useContext(ContextAPI)
@@ -23,7 +24,7 @@ const ArtScenes = () => {
     { callit: 'Black-Hat VTuber Model', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805774/8_onxfso.mp4' },
     { callit: 'SorryChris Cyber Lab Entrance Animation', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805759/9_khcdt4.mp4' },
     { callit: 'Birthday Gaming Setup Animation', icon: 'https://res.cloudinary.com/dqflexfdy/video/upload/v1754805767/10_xbxgys.mp4' },
-    { callit: 'TacoByte Studio', icon: '/tacobyte-studio.mp4' },
+    { callit: 'TacoByte Studio', icon: cinematicVideo },
   ];
 
   // helper -> detect if a url is a video by extension

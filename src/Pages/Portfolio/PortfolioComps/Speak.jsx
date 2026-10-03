@@ -1,18 +1,15 @@
 import React, { useContext, useState } from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
-import img7 from '../../../Assets/Images/portfolio/2d & 3D Models/F7.png'
-import img10 from '../../../Assets/Images/portfolio/2d & 3D Models/F10.png'
-import img12 from '../../../Assets/Images/portfolio/2d & 3D Models/F12.png'
-import sukiKurohana from '../../../Assets/Images/portfolio/2d & 3D Models/suki-kurohana-2d-model.png'
-import rowanWolfhart from '../../../Assets/Images/portfolio/2d & 3D Models/rowan-wolfhart-2d-model.png'
-import lunaraBloomstaff from '../../../Assets/Images/portfolio/2d & 3D Models/lunara-bloomstaff-3d-model.png'
-import elowenPetalweave from '../../../Assets/Images/portfolio/2d & 3D Models/elowen-petalweave-2d-chibi-model.png'
-import kairoPawsley from '../../../Assets/Images/portfolio/2d & 3D Models/kairo-pawsley-2d-model.png'
-import nerissaTidefang from '../../../Assets/Images/portfolio/2d & 3D Models/nerissa-tidefang-2d-model.png'
+import sukiKurohana from '../../../Assets/Images/portfolio/2d & 3D Models/suki-kurohana-2d-model.webp'
+import rowanWolfhart from '../../../Assets/Images/portfolio/2d & 3D Models/rowan-wolfhart-2d-model.webp'
+import lunaraBloomstaff from '../../../Assets/Images/portfolio/2d & 3D Models/lunara-bloomstaff-3d-model.webp'
+import elowenPetalweave from '../../../Assets/Images/portfolio/2d & 3D Models/elowen-petalweave-2d-chibi-model.webp'
+import kairoPawsley from '../../../Assets/Images/portfolio/2d & 3D Models/kairo-pawsley-2d-model.webp'
+import nerissaTidefang from '../../../Assets/Images/portfolio/2d & 3D Models/nerissa-tidefang-2d-model.webp'
 import rivenRedtail from '../../../Assets/Images/portfolio/2d & 3D Models/riven-redtail-pngtuber-mouth-open.png'
-import lunariBlue from '../../../Assets/Images/portfolio/2d & 3D Models/lunari-blue-pngtuber.png'
-import heroAstro from '../../../Assets/Images/HomeImages/hero-astro.png'
-import angelModel from '../../../Assets/Images/HomeImages/angel-model.png'
+import lunariBlue from '../../../Assets/Images/portfolio/2d & 3D Models/lunari-blue-pngtuber.webp'
+import heroAstro from '../../../Assets/Images/HomeImages/hero-astro.webp'
+import angelModel from '../../../Assets/Images/HomeImages/angel-model.webp'
 
 
 
@@ -49,13 +46,10 @@ const Speak = () => {
         { callit: "Frostbyte 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746058/F4_lzs9av.png' },
         { callit: "Shadowtail 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746058/F5_tokal0.png' },
         { callit: "Azure Ranger 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746060/F6_u7xrr0.png', hidden: true },
-        { callit: "Infernal Wraith 2D Model", icon: img7, hidden: true },
         { callit: "Obsidian Shade 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746149/F8_bfbsyj.png', hidden: true },
         { callit: "Silverblade Ronin 2D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746205/F9_jpss1z.png', hidden: true },
 
-        { callit: "Crimson Trickster 2D Model", icon: img10, hidden: true },
         { callit: "Aetherfire Sentinel 3D Model", icon: 'https://res.cloudinary.com/dqflexfdy/image/upload/v1754746224/F11_mmugmx.png', hidden: true },
-        { callit: "Pixel Purrfect 2D Model", icon: img12, hidden: true },
         { callit: "Elowen Petalweave 2D Chibi Model", icon: elowenPetalweave },
         { callit: "Kairo Pawsley 2D Model", icon: kairoPawsley },
         { callit: "Nerissa Tidefang 2D Model", icon: nerissaTidefang },

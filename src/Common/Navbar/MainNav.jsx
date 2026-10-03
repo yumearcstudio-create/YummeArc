@@ -5,7 +5,6 @@ import logo from '../../Assets/Images/logo1.png'
 import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 import MobNav from './MobNav';
 import { Link, useNavigate } from 'react-router-dom';
-import { span } from 'framer-motion/m';
 
 
 
