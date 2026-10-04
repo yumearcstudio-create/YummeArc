@@ -102,7 +102,8 @@ const Speak = () => {
                         style={{ boxShadow: isActive == idx ? '0px 8px 15px 3px rgba(250, 250, 250, 0.1)' : '0px 1px 3px 2px #2C2839', transition: 'all 0.3s ease-in-out' }}>
                         {/* <img onClick={() => handleShowImage(idx)} src={speaker.icon} alt="" className='w-full md:min-h-80' /> */}
                         <div onClick={() => handleShowImage(idx)} className="w-full  min-h-64 relative bg-gradient-to-t from-purpleText/30 to-purpleText">
-                            <div className='absolute inset-0 ' style={{ backgroundImage: `url(${speaker.icon})`, backgroundSize: speaker.fit === 'contain' ? 'contain' : 'cover', backgroundRepeat: speaker.fit === 'contain' ? 'no-repeat' : 'repeat', backgroundPosition: 'top' }}></div>
+                            {/* top offset keeps the character's head off the card edge at every aspect ratio; bg art is anchored to the top, so the layer itself must start below it */}
+                            <div className='absolute inset-x-0 bottom-0 top-4 md:top-5 ' style={{ backgroundImage: `url(${speaker.icon})`, backgroundSize: speaker.fit === 'contain' ? 'contain' : 'cover', backgroundRepeat: speaker.fit === 'contain' ? 'no-repeat' : 'repeat', backgroundPosition: 'top' }}></div>
                         </div>
 
                         <h1 className=' lg:text-lg text-sm  sm:p-4 p-2 text-center'>{speaker.callit}</h1>
