@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const MeetArtist = () => {
   const meetArtist = [
     {
-      callit: "Celestria Paisley",
+      callit: "Celestia Paisley",
       twitter: "https://x.com/celestiapaisley?s=21",
       twitch: "https://www.twitch.tv/celestialpaisley",
       discord: "celestialpaisley",
