@@ -9,6 +9,7 @@ const Story = lazy(() => import('./sections/Story'));
 const MeetArtist = lazy(() => import('./sections/MeetArtist'));
 const Mission = lazy(() => import('./sections/Mission'));
 const CreativeProcess = lazy(() => import('./sections/CreativeProcess'));
+const CreativeBoundaries = lazy(() => import('./sections/CreativeBoundaries'));
 const CTAsection = lazy(() => import('./sections/CTAsection'));
 const ComissionForm = lazy(() => import('../../Common/ComissionForm.jsx'));
 
@@ -52,6 +53,9 @@ const About = () => {
       </Suspense>
       <Suspense fallback={null}>
         <CreativeProcess />
+      </Suspense>
+      <Suspense fallback={null}>
+        <CreativeBoundaries />
       </Suspense>
       <Suspense fallback={null}>
         <CTAsection />

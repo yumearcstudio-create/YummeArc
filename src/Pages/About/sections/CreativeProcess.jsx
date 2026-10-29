@@ -40,8 +40,8 @@ const CreativeProcess = () => {
                     <div data-aos="fade-up" className='flex items-start gap-4'>
                         <FaShieldAlt style={{minWidth: '20px', minHeight: '20px', width: '20px', height: '20px'}} className='mt-1 text-iconColor' />
                         <div>
-                            <h1 className='text-xl font-semibold'>Clean, creator-safe work</h1>
-                            <p className='text-lg font-light mt-1'>We focus on expressive anime-style visuals without NSFW or extreme themes, so the work feels safe to build a community around.</p>
+                            <h1 className='text-xl font-semibold'>Built With You, Not Just For You</h1>
+                            <p className='text-lg font-light mt-1'>We share ideas, explore possibilities, and welcome your feedback throughout the design process. Your vision stays involved, not just in the initial brief.</p>
                         </div>
                     </div>
 

@@ -7,6 +7,62 @@ import { FaXTwitter } from "react-icons/fa6";
 const MeetArtist = () => {
   const meetArtist = [
     {
+      callit: "The_Auroriftt",
+      twitter: "https://x.com/Auroriftt",
+      twitch: "",
+      discord: "auroriftt",
+      icon: "",
+    },
+
+    {
+      callit: "Noctflux",
+      twitter: "https://x.com/noctfluxx?s=11",
+      twitch: "",
+      discord: "noctflux",
+      icon: "",
+    },
+
+    {
+      callit: "Kitsuquill",
+      twitter: "https://x.com/Kitsuquill",
+      twitch: "",
+      discord: "kitsuquill",
+      icon: "",
+    },
+
+    {
+      callit: "Anglyph_x",
+      twitter: "https://x.com/anglyph?s=11",
+      twitch: "",
+      discord: "anglyph",
+      icon: "",
+    },
+
+    {
+      callit: "Enwisp_VT",
+      twitter: "https://x.com/Enwisp_",
+      twitch: "",
+      discord: "enwisp_vt",
+      icon: "",
+    },
+
+    {
+      callit: "Celestiloom",
+      twitter: "https://x.com/celestiloom",
+      twitch: "",
+      discord: "celestiloom",
+      icon: "",
+    },
+
+    {
+      callit: "Sleepy_Lumynap",
+      twitter: "https://x.com/sleepy_lumynap",
+      twitch: "",
+      discord: "sleepy_lumynap",
+      icon: "",
+    },
+
+    {
       callit: "Celestia Paisley",
       twitter: "https://x.com/celestiapaisley?s=21",
       twitch: "https://www.twitch.tv/celestialpaisley",
@@ -146,8 +202,11 @@ const MeetArtist = () => {
       >
         Official YumeArc <span className="gradient-text-gold">Verified</span> team members
       </h1>
+      <p data-aos="fade-up" className='lg:text-lg text-base text-center mt-6 max-w-4xl'>
+        At YumeArc, our public facing team members use creative aliases inspired by anime, gaming, and VTuber culture. These are professional screen names, not legal names, reflecting the creative communities we're part of while allowing our team members to maintain their personal privacy.
+      </p>
       <p data-aos="fade-up" className='lg:text-lg text-base text-center mt-4 max-w-4xl'>
-        These are the only official people working under YumeArc. If someone contacts you outside this list, please check with us through our official Discord or X before sharing project details or placing an order.
+        The profiles listed below are our official public facing representatives. If someone contacts you from an account not listed here, please verify with us through our official Discord, X, or our email before sharing project details or making a payment.
       </p>
       <div className="w-full grid sm:grid-cols-2 grid-cols-1 xl:gap-8 lg:gap-6 gap-4 mt-16 ">
         {meetArtist.filter(a => !a.hidden).map((why, idx) => (

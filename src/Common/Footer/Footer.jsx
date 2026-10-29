@@ -59,7 +59,7 @@ const Footer = () => {
                             <p className='px-4 text-lg font-semibold underline'>studio@yumearc.com</p>
                         </div>
 
-                        <div className='flex '>
+                        <div className='flex ' style={{ display: 'none' }}>
                             <FaLocationDot size={"2em"} />
                             <p className='px-4 text-lg font-semibold underline'>  56 Chestnut Street Edison 08817 NJ</p>
                         </div>
