@@ -2,7 +2,7 @@ import {  MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import {  FaHandshake,  FaLocationDot,  FaTwitch,  FaXTwitter } from "react-icons/fa6";
 import TrustPilotBadge from '../../components/TrustPilotBadge';
-import { SiLinktree } from 'react-icons/si';
+import { SiDiscord, SiLinktree } from 'react-icons/si';
 
 
 const Footer = () => {
@@ -23,6 +23,8 @@ const Footer = () => {
                     <div className='w-full flex gap-x-6 '>
 
                         <a href="https://x.com/yumearcstudio?s=21" target='_blank' className='hover:scale-125 transition-all' ><FaXTwitter size={"2em"} /></a>
+
+                        <a href="https://discord.gg/f8Y8yrVNdP" target='_blank' className='hover:scale-125 transition-all' ><SiDiscord size={"2em"} /></a>
 
                         <a href="https://www.twitch.tv/" target='_blank' className='hover:scale-125 transition-all' ><FaTwitch size={"2em"} /></a>
 

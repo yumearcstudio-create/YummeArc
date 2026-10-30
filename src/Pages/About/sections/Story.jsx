@@ -7,7 +7,7 @@ const Story = () => {
   return (
     <section className='w-full bg-primaryDark text-headingDark pt-12 pb-6 px-4 sm:px-12 xl:px-64  2xl:px-80 flex flex-col justify-center items-center relative gap-y-8'>
       <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-secondaryDark
-                to-transparent' />
+                to-transparent pointer-events-none' />
 
       <AOSInitializer />
       <h1 data-aos="flip-up" className='   font-kaushans lg:text-[3.5rem] sm:text-5xl text-3xl leading-[1.1] w-full text-center font-bold'>
@@ -29,7 +29,7 @@ const Story = () => {
         That&rsquo;s where we wanted YumeArc to be different. We don&rsquo;t just ask what you want drawn. We listen to the character you&rsquo;re trying to build, help clarify the direction, and then create visuals that feel personal, connected, and easier for your audience to remember.
       </p>
 
-      <Link to={"/portfolio"} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>See Our Work</Link>
+      <Link to={"/portfolio"} className=' relative z-30 my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>See Our Work</Link>
 
       <div className='w-full flex md:flex-row flex-col justify-center items-center' style={{display: 'none'}}>
         <h1 className='text-2xl sm:text-5xl lg:text-7xl font-semibold sm:text-left text-center'>Every Story Starts With a Character..</h1>

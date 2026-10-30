@@ -7,34 +7,10 @@ import { FaXTwitter } from "react-icons/fa6";
 const MeetArtist = () => {
   const meetArtist = [
     {
-      callit: "The_Auroriftt",
-      twitter: "https://x.com/Auroriftt",
+      callit: "Celestiloom",
+      twitter: "https://x.com/celestiloom",
       twitch: "",
-      discord: "auroriftt",
-      icon: "",
-    },
-
-    {
-      callit: "Noctflux",
-      twitter: "https://x.com/noctfluxx?s=11",
-      twitch: "",
-      discord: "noctflux",
-      icon: "",
-    },
-
-    {
-      callit: "Kitsuquill",
-      twitter: "https://x.com/Kitsuquill",
-      twitch: "",
-      discord: "kitsuquill",
-      icon: "",
-    },
-
-    {
-      callit: "Anglyph_x",
-      twitter: "https://x.com/anglyph?s=11",
-      twitch: "",
-      discord: "anglyph",
+      discord: "celestiloom",
       icon: "",
     },
 
@@ -47,43 +23,11 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Celestiloom",
-      twitter: "https://x.com/celestiloom",
-      twitch: "",
-      discord: "celestiloom",
-      icon: "",
-    },
-
-    {
       callit: "Sleepy_Lumynap",
       twitter: "https://x.com/sleepy_lumynap",
       twitch: "",
       discord: "sleepy_lumynap",
       icon: "",
-    },
-
-    {
-      callit: "Celestia Paisley",
-      twitter: "https://x.com/celestiapaisley?s=21",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "celestialpaisley",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825301/1_vftjej.png",
-    },
-
-    {
-      callit: "Emma Smith",
-      twitter: "https://x.com/EmmasmithVT",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "emmasmith_",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825323/5_rl8xka.png",
-    },
-
-    {
-      callit: "Sleepy Lumina",
-      twitter: "https://x.com/Sleepy_lumina",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "sleepy_lumina",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825380/10_qqntrd.png",
     },
 
     {
@@ -111,27 +55,27 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Emily Johnson",
-      twitter: "https://x.com/Emily_Johnson55",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "emily_johnson55",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825344/6_izj1db.png",
+      callit: "Kitsuquill",
+      twitter: "https://x.com/Kitsuquill",
+      twitch: "",
+      discord: "kitsuquill",
+      icon: "",
     },
 
     {
-      callit: "Angela Wright",
-      twitter: "https://x.com/Angela_Wright56",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "angela_wright56",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825348/7_poxnks.png",
+      callit: "Anglyph_x",
+      twitter: "https://x.com/anglyph?s=11",
+      twitch: "",
+      discord: "anglyph",
+      icon: "",
     },
 
     {
-      callit: "Mimi Noctelle",
-      twitter: "https://x.com/noctellemimi",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "mimi_noctelle",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825324/8_n70c3v.png",
+      callit: "Noctflux",
+      twitter: "https://x.com/noctfluxx?s=11",
+      twitch: "",
+      discord: "noctflux",
+      icon: "",
     },
 
     {
@@ -152,11 +96,11 @@ const MeetArtist = () => {
     },
 
     {
-      callit: "Aurora Lucas",
-      twitter: "https://x.com/aurora_lucas03",
-      twitch: "https://www.twitch.tv/celestialpaisley",
-      discord: "aurora_lucas",
-      icon: "https://res.cloudinary.com/dqflexfdy/image/upload/v1754825341/12_fmdvk3.png",
+      callit: "The_Auroriftt",
+      twitter: "https://x.com/Auroriftt",
+      twitch: "",
+      discord: "auroriftt",
+      icon: "",
     },
 
     {

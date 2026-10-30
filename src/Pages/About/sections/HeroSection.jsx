@@ -1,11 +1,13 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import AOSInitializer from '../../../Common/AOS/AOSInitializer'
 //import heroImg from '../../../Assets/Images/about/hero.png'
 import heroImg from '../../../Assets/Images/about/8.png'
-import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 
 const HeroSection = () => {
-    const { setIsFormOpen } = useContext(ContextAPI)
+    const scrollToTeam = () => {
+        const el = document.getElementById('verified-artists');
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <div className='w-full bg-secondaryDark text-headingDark pb-10  px-4  sm:px-20 xl:px-28 3xl:px-80  pt-40 flex flex-col justify-center items-center relative'>
             <span className='w-full h-1/5 absolute bottom-0 z-20 right-0 bg-gradient-to-t from-primaryDark
@@ -19,7 +21,7 @@ const HeroSection = () => {
                 YumeArc is a small creative team creating VTuber models, PNGTubers, custom chibi panels, emotes, and stream visuals that feel connected to each creator&rsquo;s lore, personality, and direction.
             </p>
 
-            <button onClick={() => setIsFormOpen(true)} className=' my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Meet the Team</button>
+            <button onClick={scrollToTeam} className=' relative z-30 my-6 px-8 py-2 text-headingDark font-bold cursor-pointer transition-all duration-300 border-2 border-textDark bg-buttonPrimary text-center rounded-md hover:-translate-y-2'>Meet the Team</button>
 
             <div className='w-full flex justify-center items-center '>
                 <img src="https://res.cloudinary.com/dqflexfdy/image/upload/v1759427863/CHRACHTER_AB-01_dnrhtw.png" alt="" className="w-[180px] sm:w-[250px]" />
